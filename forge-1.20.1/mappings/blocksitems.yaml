@@ -1,0 +1,3 @@
+PowerModItems.FIRE_STONE:
+  - PowerModItems.FIRE_STONE.get()
+  - "power:fire_stone"

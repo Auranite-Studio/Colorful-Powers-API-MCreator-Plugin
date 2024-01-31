@@ -1,0 +1,14 @@
+forge-1.20.1:
+  gradle: |
+    repositories {
+     maven {
+         url = 'https://cursemaven.com'
+     }
+    }
+    
+     dependencies {
+       implementation fg.deobf("curse.maven:keepers-of-the-stones-ii-906406:5034617")
+     }
+  update_files:
+    - ~
+name: "Keepers of the Stones II API"

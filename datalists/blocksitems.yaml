@@ -1,0 +1,4 @@
+- PowerModItems.FIRE_STONE:
+  readable_name: "Fire Stone"
+  type: item
+  texture: fire_stone
