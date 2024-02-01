@@ -22,6 +22,42 @@
   readable_name: "Energium Ingot"
   type: item
   texture: energium_ingot
+- PowerModItems.ENERGIUM_SWORD:
+  readable_name: "Energium Sword"
+  type: item
+  texture: energium_sword
+- PowerModItems.ENERGIUM_AXE:
+  readable_name: "Energium Axe"
+  type: item
+  texture: energium_axe
+- PowerModItems.ENERGIUM_PICKAXE:
+  readable_name: "Energium Pickaxe"
+  type: item
+  texture: energium_pickaxe
+- PowerModItems.ENERGIUM_SHOVEL:
+  readable_name: "Energium Shovel"
+  type: item
+  texture: energium_shovel
+- PowerModItems.ENERGIUM_HOE:
+  readable_name: "Energium Hoe"
+  type: item
+  texture: energium_hoe
+- PowerModItems.ENERGIUM_HELMET:
+  readable_name: "Energium Helmet"
+  type: item
+  texture: energium_head
+- PowerModItems.ENERGIUM_CHESTPLATE:
+  readable_name: "Energium Chestplate"
+  type: item
+  texture: energium_body
+- PowerModItems.ENERGIUM_LEGGINGS:
+  readable_name: "Energium Leggings"
+  type: item
+  texture: energium_leggings
+- PowerModItems.ENERGIUM_BOOTS:
+  readable_name: "Energium Boots"
+  type: item
+  texture: energium_boots
 - PowerModItems.ENERGIUM_CORE:
   readable_name: "Energium Core"
   type: item

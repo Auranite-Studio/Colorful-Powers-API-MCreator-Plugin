@@ -16,6 +16,33 @@ PowerModItems.DEPLETED_ENERGIUM_INGOT:
 PowerModItems.ENERGIUM_INGOT:
   - PowerModItems.ENERGIUM_INGOT.get()
   - "power:energium_ingot"
+PowerModItems.ENERGIUM_SWORD:
+  - PowerModItems.ENERGIUM_SWORD.get()
+  - "power:energium_sword"
+PowerModItems.ENERGIUM_AXE:
+  - PowerModItems.ENERGIUM_AXE.get()
+  - "power:energium_axe"
+PowerModItems.ENERGIUM_PICKAXE:
+  - PowerModItems.ENERGIUM_PICKAXE.get()
+  - "power:energium_pickaxe"
+PowerModItems.ENERGIUM_SHOVEL:
+  - PowerModItems.ENERGIUM_SHOVEL.get()
+  - "power:energium_shovel"
+PowerModItems.ENERGIUM_HOE:
+  - PowerModItems.ENERGIUM_HOE.get()
+  - "power:energium_hoe"
+PowerModItems.ENERGIUM_HELMET:
+  - PowerModItems.ENERGIUM_HELMET.get()
+  - "power:energium_helmet"
+PowerModItems.ENERGIUM_CHESTPLATE:
+  - PowerModItems.ENERGIUM_CHESTPLATE.get()
+  - "power:energium_chestplate"
+PowerModItems.ENERGIUM_LEGGINGS:
+  - PowerModItems.ENERGIUM_LEGGINGS.get()
+  - "power:energium_leggings"
+PowerModItems.ENERGIUM_BOOTS:
+  - PowerModItems.ENERGIUM_BOOTS.get()
+  - "power:energium_boots"
 PowerModItems.ENERGIUM_CORE:
   - PowerModItems.ENERGIUM_CORE.get()
   - "power:energium_core"
