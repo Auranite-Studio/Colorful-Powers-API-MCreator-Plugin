@@ -1,3 +1,15 @@
+- PowerModItems.DEPLETED_ENERGIUM_ORE:
+  readable_name: "Depleted Energium Ore"
+  type: block
+  texture: depleted_energium_ore
+- PowerModItems.DEPLETED_ENERGIUM_BLOCK:
+  readable_name: "Depleted Energium Block"
+  type: block
+  texture: depleted_energium_block
+- PowerModItems.ENERGIUM_BLOCK:
+  readable_name: "Energium Block"
+  type: block
+  texture: energium_block
 - PowerModItems.RAW_DEPLETED_ENERGIUM:
   readable_name: "Raw Depleted Energium"
   type: item

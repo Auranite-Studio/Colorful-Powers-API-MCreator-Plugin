@@ -1,3 +1,12 @@
+PowerModItems.DEPLETED_ENERGIUM_ORE:
+  - PowerModItems.DEPLETED_ENERGIUM_ORE.get()
+  - "power:depleted_energium_ore"
+PowerModItems.DEPLETED_ENERGIUM_BLOCK:
+  - PowerModItems.DEPLETED_ENERGIUM_BLOCK.get()
+  - "power:depleted_energium_block"
+PowerModItems.ENERGIUM_BLOCK:
+  - PowerModItems.ENERGIUM_BLOCK.get()
+  - "power:energium_block"
 PowerModItems.RAW_DEPLETED_ENERGIUM:
   - PowerModItems.RAW_DEPLETED_ENERGIUM.get()
   - "power:raw_depleted_energium"
