@@ -1,3 +1,6 @@
+PowerModItems.EMPTY_BATTERY:
+  - PowerModItems.EMPTY_BATTERY.get()
+  - "power:empty_battery"
 PowerModItems.FIRE_STONE:
   - PowerModItems.FIRE_STONE.get()
   - "power:fire_stone"

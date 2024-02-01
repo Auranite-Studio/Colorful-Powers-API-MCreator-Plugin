@@ -1,3 +1,7 @@
+- PowerModItems.EMPTY_BATTERY:
+  readable_name: "Empty Battery"
+  type: item
+  texture: empty_battery
 - PowerModItems.FIRE_STONE:
   readable_name: "Fire Stone"
   type: item
