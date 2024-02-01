@@ -1,3 +1,15 @@
+PowerModItems.RAW_DEPLETED_ENERGIUM:
+  - PowerModItems.RAW_DEPLETED_ENERGIUM.get()
+  - "power:raw_depleted_energium"
+PowerModItems.DEPLETED_ENERGIUM_INGOT:
+  - PowerModItems.DEPLETED_ENERGIUM_INGOT.get()
+  - "power:depleted_energium_ingot"
+PowerModItems.ENERGIUM_INGOT:
+  - PowerModItems.ENERGIUM_INGOT.get()
+  - "power:energium_ingot"
+PowerModItems.ENERGIUM_CORE:
+  - PowerModItems.ENERGIUM_CORE.get()
+  - "power:energium_core"
 PowerModItems.EMPTY_BATTERY:
   - PowerModItems.EMPTY_BATTERY.get()
   - "power:empty_battery"

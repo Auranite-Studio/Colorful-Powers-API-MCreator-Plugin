@@ -1,3 +1,19 @@
+- PowerModItems.RAW_DEPLETED_ENERGIUM:
+  readable_name: "Raw Depleted Energium"
+  type: item
+  texture: raw_depleted_energium
+- PowerModItems.DEPLETED_ENERGIUM_INGOT:
+  readable_name: "Depleted Energium Ingot"
+  type: item
+  texture: depleted_energium_ingot
+- PowerModItems.ENERGIUM_INGOT:
+  readable_name: "Energium Ingot"
+  type: item
+  texture: energium_ingot
+- PowerModItems.ENERGIUM_CORE:
+  readable_name: "Energium Core"
+  type: item
+  texture: energium_core
 - PowerModItems.EMPTY_BATTERY:
   readable_name: "Empty Battery"
   type: item
