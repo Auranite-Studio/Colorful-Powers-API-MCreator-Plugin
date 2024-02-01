@@ -1,7 +1,12 @@
 {
   "id": "cpapi",
-  "minversion": 202300200000,
+  "minversion": 202300300000,
+  "maxversion": 202400199999,
+  "weight": 9011,
   "info": {
-    "name": "Colorful Powers API"
+    "name": "Colorful Powers API",
+    "version": "1",
+    "description": "his plugin is a tool for creating mods with magical artifacts and powers compatible with the Keepers of the Stones II mod",
+    "author": "Environment Studios"
   }
 }
