@@ -2,3 +2,79 @@
   readable_name: "Fire Stone"
   type: item
   texture: fire_stone
+- PowerModItems.AIR_STONE:
+  readable_name: "Air Stone"
+  type: item
+  texture: air_stone
+- PowerModItems.EARTH_STONE:
+  readable_name: "Earth Stone"
+  type: item
+  texture: earth_stone
+- PowerModItems.WATER_STONE:
+  readable_name: "Water Stone"
+  type: item
+  texture: water_stone
+- PowerModItems.ETHER_STONE:
+  readable_name: "Ether Stone"
+  type: item
+  texture: ether_stone
+- PowerModItems.ICE_STONE:
+  readable_name: "Ice Stone"
+  type: item
+  texture: ice_stone
+- PowerModItems.LIGHTNING_STONE:
+  readable_name: "Lightning Stone"
+  type: item
+  texture: lightning_stone
+- PowerModItems.SOUND_STONE:
+  readable_name: "Sound Stone"
+  type: item
+  texture: sound_stone
+- PowerModItems.CRYSTAL_STONE:
+  readable_name: "Crystal Stone"
+  type: item
+  texture: crystal_stone
+- PowerModItems.LAVA_STONE:
+  readable_name: "Lava Stone"
+  type: item
+  texture: lava_stone
+- PowerModItems.RAIN_STONE:
+  readable_name: "Rain Stone"
+  type: item
+  texture: rain_stone
+- PowerModItems.TORNADO_STONE:
+  readable_name: "Tornado Stone"
+  type: item
+  texture: tornado_stone
+- PowerModItems.OCEAN_STONE:
+  readable_name: "Ocean Stone"
+  type: item
+  texture: ocean_stone
+- PowerModItems.PLANTS_STONE:
+  readable_name: "Plants Stone"
+  type: item
+  texture: plants_stone
+- PowerModItems.ANIMALS_STONE:
+  readable_name: "Animals Stone"
+  type: item
+  texture: animals_stone
+- PowerModItems.METAL_STONE:
+  readable_name: "Metal Stone"
+  type: item
+  texture: metal_stone
+- PowerModItems.LIGHT_STONE:
+  readable_name: "Light Stone"
+  type: item
+  texture: light_stone
+- PowerModItems.SHADOW_STONE:
+  readable_name: "Shadow Stone"
+  type: item
+  texture: shadow_stone
+- PowerModItems.VACUUM_STONE:
+  readable_name: "Vacuum Stone"
+  type: item
+  texture: vacuum_stone
+- PowerModItems.ENERGY_STONE:
+  readable_name: "Energy Stone"
+  type: item
+  texture: energy_stone

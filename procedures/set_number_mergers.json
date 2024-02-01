@@ -8,19 +8,19 @@
     {
       "type": "input_value",
       "name": "variableValue",
-      "check": "Boolean"
+      "check": "Number"
     }
   ],
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": "%{BKY_LOGIC_HUE}",
+  "colour": "%{BKY_MATH_HUE}",
   "mcreator": {
     "group": "inventory",
     "toolbox_id": "colorful_powers_api",
     "toolbox_init": [
       "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>",
-      "<value name=\"variableValue\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value>"
+      "<value name=\"variableValue\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
     ],
     "inputs": [
       "entity",

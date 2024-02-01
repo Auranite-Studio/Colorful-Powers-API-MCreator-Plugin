@@ -1,3 +1,60 @@
 PowerModItems.FIRE_STONE:
   - PowerModItems.FIRE_STONE.get()
   - "power:fire_stone"
+PowerModItems.AIR_STONE:
+  - PowerModItems.AIR_STONE.get()
+  - "power:air_stone"
+PowerModItems.EARTH_STONE:
+  - PowerModItems.EARTH_STONE.get()
+  - "power:earth_stone"
+PowerModItems.WATER_STONE:
+  - PowerModItems.WATER_STONE.get()
+  - "power:water_stone"
+PowerModItems.ETHER_STONE:
+  - PowerModItems.ETHER_STONE.get()
+  - "power:ether_stone"
+PowerModItems.ICE_STONE:
+  - PowerModItems.ICE_STONE.get()
+  - "power:ice_stone"
+PowerModItems.LIGHTNING_STONE:
+  - PowerModItems.LIGHTNING_STONE.get()
+  - "power:lightning_stone"
+PowerModItems.SOUND_STONE:
+  - PowerModItems.SOUND_STONE.get()
+  - "power:sound_stone"
+PowerModItems.CRYSTAL_STONE:
+  - PowerModItems.CRYSTAL_STONE.get()
+  - "power:crystal_stone"
+PowerModItems.LAVA_STONE:
+  - PowerModItems.LAVA_STONE.get()
+  - "power:lava_stone"
+PowerModItems.RAIN_STONE:
+  - PowerModItems.RAIN_STONE.get()
+  - "power:rain_stone"
+PowerModItems.TORNADO_STONE:
+  - PowerModItems.TORNADO_STONE.get()
+  - "power:tornado_stone"
+PowerModItems.OCEAN_STONE:
+  - PowerModItems.OCEAN_STONE.get()
+  - "power:ocean_stone"
+PowerModItems.PLANTS_STONE:
+  - PowerModItems.PLANTS_STONE.get()
+  - "power:plants_stone"
+PowerModItems.ANIMALS_STONE:
+  - PowerModItems.ANIMALS_STONE.get()
+  - "power:animals_stone"
+PowerModItems.METAL_STONE:
+  - PowerModItems.METAL_STONE.get()
+  - "power:metal_stone"
+PowerModItems.LIGHT_STONE:
+  - PowerModItems.LIGHT_STONE.get()
+  - "power:light_stone"
+PowerModItems.SHADOW_STONE:
+  - PowerModItems.SHADOW_STONE.get()
+  - "power:shadow_stone"
+PowerModItems.VACUUM_STONE:
+  - PowerModItems.VACUUM_STONE.get()
+  - "power:vacuum_stone"
+PowerModItems.ENERGY_STONE:
+  - PowerModItems.ENERGY_STONE.get()
+  - "power:energy_stone"

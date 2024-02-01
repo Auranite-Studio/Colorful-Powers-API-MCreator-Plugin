@@ -7,8 +7,8 @@
     }
   ],
   "inputsInline": true,
-  "output": "Boolean",
-  "colour": "%{BKY_LOGIC_HUE}",
+  "output": "Number",
+  "colour": "%{BKY_MATH_HUE}",
   "mcreator": {
     "group": "inventory",
     "toolbox_id": "colorful_powers_api",
