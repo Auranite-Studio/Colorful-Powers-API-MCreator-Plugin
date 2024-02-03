@@ -1,2 +1,42 @@
 - FIRE_MASTER:
   texture: 8171462
+- AIR_MASTER:
+  texture: 8171462
+- EARTH_MASTER:
+  texture: 8171462
+- WATER_MASTER:
+  texture: 8171462
+- ETHER_MASTER:
+  texture: 8171462
+- EARTH_MASTER:
+  texture: 8171462
+- ICE_MASTER:
+  texture: 8171462
+- LIGHTNING_MASTER:
+  texture: 8171462
+- SOUND_MASTER:
+  texture: 8171462
+- CRYSTAL_MASTER:
+  texture: 8171462
+- LAVA_MASTER:
+  texture: 8171462
+- RAIN_MASTER:
+  texture: 8171462
+- TORNADO_MASTER:
+  texture: 8171462
+- OCEAN_MASTER:
+  texture: 8171462
+- PLANTS_MASTER:
+  texture: 8171462
+- ANIMALS_MASTER:
+  texture: 8171462
+- METAL_MASTER:
+  texture: 8171462
+- LIGHT_MASTER:
+  texture: 8171462
+- SHADOW_MASTER:
+  texture: 8171462
+- VACUUM_MASTER:
+  texture: 8171462
+- ENERGY_MASTER:
+  texture: 8171462
