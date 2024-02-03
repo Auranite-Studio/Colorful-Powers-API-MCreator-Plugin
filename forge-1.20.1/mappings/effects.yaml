@@ -1,3 +1,4 @@
+POWER_LOCK: PowerModMobEffects.POWER_LOCK.get()
 FIRE_MASTER: PowerModMobEffects.FIRE_MASTER.get()
 AIR_MASTER: PowerModMobEffects.AIR_MASTER.get()
 EARTH_MASTER: PowerModMobEffects.EARTH_MASTER.get()
