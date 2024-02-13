@@ -1,4 +1,4 @@
-package net.nerdypuzzle.geckolib.parts;
+package com.esmods.cpapi.parts;
 
 //
 // Source code recreated from a .class file by IntelliJ IDEA
@@ -41,7 +41,6 @@ import net.mcreator.workspace.Workspace;
 import net.mcreator.workspace.elements.ModElement;
 import net.mcreator.workspace.elements.VariableType;
 import net.mcreator.workspace.elements.VariableTypeLoader;
-import net.nerdypuzzle.geckolib.element.types.AnimatedEntity;
 import netscape.javascript.JSObject;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -73,33 +72,6 @@ public class JavabridgeReplacement {
         }
 
     }
-
-    public static List<String> loadEntityDataListFromCustomEntity(Workspace workspace, String entityName, Class<? extends PropertyData<?>> type) {
-        if (entityName != null) {
-            Object ent = workspace.getModElementByName(entityName.replace("CUSTOM:", "")).getGeneratableElement();
-            if (ent instanceof LivingEntity entity) {
-                if (entity != null) {
-                    return entity.entityDataEntries.stream().filter((e) -> {
-                        return e.property().getClass().equals(type);
-                    }).map((e) -> {
-                        return e.property().getName();
-                    }).toList();
-                }
-            }
-            else if (ent instanceof AnimatedEntity entity) {
-                if (entity != null) {
-                    return entity.entityDataEntries.stream().filter((e) -> {
-                        return e.property().getClass().equals(type);
-                    }).map((e) -> {
-                        return e.property().getName();
-                    }).toList();
-                }
-            }
-        }
-
-        return new ArrayList();
-    }
-
     public String getMCItemURI(String name) {
         ImageIcon base = new ImageIcon(ImageUtils.resize(MinecraftImageGenerator.generateItemSlot(), 36, 36));
         ImageIcon image;
@@ -189,30 +161,6 @@ public class JavabridgeReplacement {
                         return e.isSupportedInWorkspace(w);
                     }).toList();
                 }, "entity");
-                break;
-            case "customEntity":
-                var10000 = this.openDataListEntrySelector(ElementUtil::loadCustomEntities, "entity");
-                break;
-            case "entitydata_logic":
-                var10000 = this.openStringEntrySelector((w) -> {
-                    return (String[])loadEntityDataListFromCustomEntity(w, customEntryProviders, PropertyData.LogicType.class).toArray((x$0) -> {
-                        return new String[x$0];
-                    });
-                }, "entity_data");
-                break;
-            case "entitydata_integer":
-                var10000 = this.openStringEntrySelector((w) -> {
-                    return (String[])loadEntityDataListFromCustomEntity(w, customEntryProviders, PropertyData.IntegerType.class).toArray((x$0) -> {
-                        return new String[x$0];
-                    });
-                }, "entity_data");
-                break;
-            case "entitydata_string":
-                var10000 = this.openStringEntrySelector((w) -> {
-                    return (String[])loadEntityDataListFromCustomEntity(w, customEntryProviders, PropertyData.StringType.class).toArray((x$0) -> {
-                        return new String[x$0];
-                    });
-                }, "entity_data");
                 break;
             case "gui":
                 var10000 = this.openStringEntrySelector((w) -> {

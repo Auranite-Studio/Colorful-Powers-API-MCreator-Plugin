@@ -1,16 +1,16 @@
-package net.nerdypuzzle.geckolib.parts.arm_pose_list;
+package com.esmods.cpapi.parts.arm_pose_list;
 
 import net.mcreator.ui.MCreator;
 import net.mcreator.ui.component.entries.JSimpleListEntry;
 import net.mcreator.ui.help.IHelpContext;
 import net.mcreator.ui.init.L10N;
 import net.mcreator.workspace.Workspace;
-import net.nerdypuzzle.geckolib.element.types.AnimatedItem;
+import com.esmods.cpapi.element.types.Aftifact;
 
 import javax.swing.*;
 import java.util.List;
 
-public class JArmPoseEntry extends JSimpleListEntry<AnimatedItem.ArmPoseEntry> {
+public class JArmPoseEntry extends JSimpleListEntry<Aftifact.ArmPoseEntry> {
     private final Workspace workspace;
     private final JComboBox<String> armHeld = new JComboBox<>(new String[]{"LEFT", "RIGHT"});
     private final JComboBox<String> arm = new JComboBox<>(new String[]{"LEFT", "RIGHT"});
@@ -45,8 +45,8 @@ public class JArmPoseEntry extends JSimpleListEntry<AnimatedItem.ArmPoseEntry> {
         followsHead.setEnabled(enabled);
     }
 
-    public AnimatedItem.ArmPoseEntry getEntry() {
-        AnimatedItem.ArmPoseEntry entry = new AnimatedItem.ArmPoseEntry();
+    public Aftifact.ArmPoseEntry getEntry() {
+        Aftifact.ArmPoseEntry entry = new Aftifact.ArmPoseEntry();
         entry.armHeld = (String) armHeld.getSelectedItem();
         entry.arm = (String) arm.getSelectedItem();
         entry.angle = (String) angle.getSelectedItem();
@@ -56,7 +56,7 @@ public class JArmPoseEntry extends JSimpleListEntry<AnimatedItem.ArmPoseEntry> {
         return entry;
     }
 
-    public void setEntry(AnimatedItem.ArmPoseEntry e) {
+    public void setEntry(Aftifact.ArmPoseEntry e) {
         armHeld.setSelectedItem(e.armHeld);
         arm.setSelectedItem(e.arm);
         angle.setSelectedItem(e.angle);

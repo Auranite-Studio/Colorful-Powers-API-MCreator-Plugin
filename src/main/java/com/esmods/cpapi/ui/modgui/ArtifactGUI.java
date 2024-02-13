@@ -1,5 +1,6 @@
-package net.nerdypuzzle.geckolib.ui.modgui;
+package com.esmods.cpapi.ui.modgui;
 
+import com.esmods.cpapi.parts.arm_pose_list.JArmPoseList;
 import net.mcreator.blockly.data.Dependency;
 import net.mcreator.element.GeneratableElement;
 import net.mcreator.element.ModElementType;
@@ -37,22 +38,16 @@ import net.mcreator.util.ListUtils;
 import net.mcreator.util.StringUtils;
 import net.mcreator.workspace.elements.ModElement;
 import net.mcreator.workspace.elements.VariableTypeLoader;
-import net.nerdypuzzle.geckolib.element.types.AnimatedItem;
-import net.nerdypuzzle.geckolib.element.types.GeckolibElement;
-import net.nerdypuzzle.geckolib.parts.GeomodelRenderer;
-import net.nerdypuzzle.geckolib.parts.PluginModelActions;
-import net.nerdypuzzle.geckolib.parts.arm_pose_list.JArmPoseList;
+import com.esmods.cpapi.element.types.Aftifact;
+import com.esmods.cpapi.element.types.GeckolibElement;
 
-import javax.annotation.Nullable;
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class AnimatedItemGUI extends ModElementGUI<AnimatedItem> implements GeckolibElement {
+public class ArtifactGUI extends ModElementGUI<Aftifact> implements GeckolibElement {
     private TextureHolder texture;
     private StringListProcedureSelector specialInformation;
     private final VTextField idle = new VTextField(20);
@@ -105,7 +100,7 @@ public class AnimatedItemGUI extends ModElementGUI<AnimatedItem> implements Geck
 
     private JArmPoseList armPoseList;
 
-    public AnimatedItemGUI(MCreator mcreator, ModElement modElement, boolean editingMode) {
+    public ArtifactGUI(MCreator mcreator, ModElement modElement, boolean editingMode) {
         super(mcreator, modElement, editingMode);
         this.geoModel = new SearchableComboBox();
         this.displaySettings = new SearchableComboBox();
@@ -220,12 +215,10 @@ public class AnimatedItemGUI extends ModElementGUI<AnimatedItem> implements Geck
         JPanel rent = new JPanel(new GridLayout(2, 1, 3, 3));
         rent.setOpaque(false);
         this.geoModel.setPrototypeDisplayValue("XXXXXXXXXXXXXXXXXXXXXXXXXX");
-        this.geoModel.setRenderer(new GeomodelRenderer());
         ComponentUtils.deriveFont(this.geoModel, 16.0F);
         rent.add(PanelUtils.join(
                 HelpUtils.wrapWithHelpButton(this.withEntry("item/model"), L10N.label("elementgui.animateditem.geckolib_model")), this.geoModel));
         this.displaySettings.setPrototypeDisplayValue("XXXXXXXXXXXXXXXXXXXXXXXXXX");
-        this.displaySettings.setRenderer(new GeomodelRenderer());
         ComponentUtils.deriveFont(this.displaySettings, 16.0F);
         rent.add(PanelUtils.join(
                 HelpUtils.wrapWithHelpButton(this.withEntry("geckolib/display_settings"), L10N.label("elementgui.aniblockitems.display_settings")), this.displaySettings));
@@ -421,14 +414,6 @@ public class AnimatedItemGUI extends ModElementGUI<AnimatedItem> implements Geck
         ComboBoxUtil.updateComboBoxContents(this.guiBoundTo, ListUtils.merge(Collections.singleton("<NONE>"), (Collection)this.mcreator.getWorkspace().getModElements().stream().filter((var) -> {
             return var.getType() == ModElementType.GUI;
         }).map(ModElement::getName).collect(Collectors.toList())), "<NONE>");
-
-        ComboBoxUtil.updateComboBoxContents(this.geoModel, ListUtils.merge(Collections.singleton(""), (Collection)PluginModelActions.getGeomodels(this.mcreator).stream().map(File::getName).filter((s) -> {
-            return s.endsWith(".geo.json");
-        }).collect(Collectors.toList())), "");
-
-        ComboBoxUtil.updateComboBoxContents(this.displaySettings, ListUtils.merge(Collections.singleton(""), (Collection)PluginModelActions.getDisplaysettings(this.mcreator).stream().map(File::getName).filter((s) -> {
-            return s.endsWith(".json");
-        }).collect(Collectors.toList())), "");
     }
 
     protected AggregatedValidationResult validatePage(int page) {
@@ -439,7 +424,7 @@ public class AnimatedItemGUI extends ModElementGUI<AnimatedItem> implements Geck
         }
     }
 
-    public void openInEditingMode(AnimatedItem item) {
+    public void openInEditingMode(Aftifact item) {
         this.name.setText(item.name);
         this.idle.setText(item.idle);
         this.leftArm.setText(item.leftArm);
@@ -496,8 +481,8 @@ public class AnimatedItemGUI extends ModElementGUI<AnimatedItem> implements Geck
         this.armPoseList.setEnabled(enableArmPose.isSelected());
     }
 
-    public AnimatedItem getElementFromGUI() {
-        AnimatedItem item = new AnimatedItem(this.modElement);
+    public Aftifact getElementFromGUI() {
+        Aftifact item = new Aftifact(this.modElement);
         item.name = this.name.getText();
         item.idle = this.idle.getText();
         item.leftArm = this.leftArm.getText();

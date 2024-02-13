@@ -1,4 +1,4 @@
-package net.nerdypuzzle.geckolib.element.types;
+package com.esmods.cpapi.element.types;
 
 import net.mcreator.element.GeneratableElement;
 import net.mcreator.element.parts.MItemBlock;
@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class AnimatedItem extends GeneratableElement implements IItem, IItemWithModel, ITabContainedElement, IItemWithTexture {
+public class Aftifact extends GeneratableElement implements IItem, IItemWithModel, ITabContainedElement, IItemWithTexture {
     public int renderType;
     public String texture;
     public String customModelName;
@@ -73,7 +73,7 @@ public class AnimatedItem extends GeneratableElement implements IItem, IItemWith
     public String normal;
     public List<ArmPoseEntry> armPoseList;
 
-    private AnimatedItem() {
+    private Aftifact() {
         this((ModElement)null);
     }
 
@@ -86,7 +86,7 @@ public class AnimatedItem extends GeneratableElement implements IItem, IItemWith
         public boolean followsHead;
     }
 
-    public AnimatedItem(ModElement element) {
+    public Aftifact(ModElement element) {
         super(element);
         this.rarity = "COMMON";
         this.inventorySize = 9;

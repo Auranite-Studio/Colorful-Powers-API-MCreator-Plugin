@@ -9,7 +9,7 @@ if (project.hasProperty("mcreator_path")) {
 // workaround for IDEA-265203
 System.setProperty("user.dir", projectDir.toString())
 
-group = 'net.nerdypuzzle.geckolib'
+group = 'com.esmods.cpapi'
 version = '1.0'
 
 sourceCompatibility = 17
@@ -20,7 +20,7 @@ dependencies {
 }
 
 tasks.jar {
-    archiveFileName.set("Nerdys_Geckolib_Plugin.zip")
+    archiveFileName.set("Colorful_Powers_API_Plugin.zip")
 }
 
 task runMCreatorWithPlugin(type: JavaExec) {
