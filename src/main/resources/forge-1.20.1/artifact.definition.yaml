@@ -1,0 +1,13 @@
+global_templates:
+  - template: artifact/custom_artifact_item.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/init/@JavaModNameArtefact.java"
+    canLock: true
+
+templates:
+  - template: bjson/identifiers/custom.json.ftl
+    writer: json
+    name: "@RESROOT/data/cpapi/tags/items/@registryname.json"
+
+localizationkeys:
+  - key: cpapi.identifier.@registryname
+    mapto: name

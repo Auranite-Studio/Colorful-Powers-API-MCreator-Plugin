@@ -1,39 +1,39 @@
 package com.esmods.cpapi.element.types;
 
+import java.awt.image.BufferedImage;
+import java.util.*;
+
 import net.mcreator.element.GeneratableElement;
 import net.mcreator.element.parts.MItemBlock;
 import net.mcreator.element.parts.TabEntry;
 import net.mcreator.element.parts.procedure.Procedure;
 import net.mcreator.element.parts.procedure.StringListProcedure;
+import net.mcreator.element.types.Item;
 import net.mcreator.element.types.interfaces.IItem;
 import net.mcreator.element.types.interfaces.IItemWithModel;
 import net.mcreator.element.types.interfaces.IItemWithTexture;
 import net.mcreator.element.types.interfaces.ITabContainedElement;
+import net.mcreator.minecraft.DataListEntry;
+import net.mcreator.minecraft.DataListLoader;
 import net.mcreator.minecraft.MCItem;
+import net.mcreator.ui.minecraft.states.StateMap;
 import net.mcreator.ui.workspace.resources.TextureType;
 import net.mcreator.util.image.ImageUtils;
 import net.mcreator.workspace.elements.ModElement;
 import net.mcreator.workspace.resources.Model;
 import net.mcreator.workspace.resources.TexturedModel;
+import net.mcreator.workspace.resources.Model.Type;
 
-import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-public class Aftifact extends GeneratableElement implements IItem, IItemWithModel, ITabContainedElement, IItemWithTexture {
+public class Artifact extends GeneratableElement implements IItem, IItemWithModel, ITabContainedElement, IItemWithTexture {
     public int renderType;
     public String texture;
     public String customModelName;
     public String name;
-    public String idle;
     public String rarity;
-    public String displaySettings;
-    public String leftArm;
-    public String rightArm;
-    public String perspective;
+    public String slotType;
+    public String baubleModel;
+    public String baubleModelTexture;
     public TabEntry creativeTab;
-    public boolean firstPersonArms;
     public int stackSize;
     public int enchantability;
     public int useDuration;
@@ -43,16 +43,21 @@ public class Aftifact extends GeneratableElement implements IItem, IItemWithMode
     public boolean destroyAnyBlock;
     public boolean immuneToFire;
     public boolean stayInGridWhenCrafting;
-    public boolean enableArmPose;
     public boolean damageOnCrafting;
     public boolean enableMeleeDamage;
+    public boolean addSlot;
     public double damageVsEntity;
     public StringListProcedure specialInformation;
     public boolean hasGlow;
     public Procedure glowCondition;
+
+    public Map<String, Procedure> customProperties;
+    public List<Item.StateEntry> states;
+
     public String guiBoundTo;
     public int inventorySize;
     public int inventoryStackSize;
+    public int slotAmount;
     public Procedure onRightClickedInAir;
     public Procedure onRightClickedOnBlock;
     public Procedure onCrafted;
@@ -63,69 +68,91 @@ public class Aftifact extends GeneratableElement implements IItem, IItemWithMode
     public Procedure onEntitySwing;
     public Procedure onDroppedByPlayer;
     public Procedure onFinishUsingItem;
+    public Procedure curioTick;
+    public Procedure onEquip;
+    public Procedure onUnequip;
     public boolean isFood;
+    public boolean friendlyPigs;
+    public boolean enderMask;
+    public boolean rotateModel;
+    public boolean translateModel;
     public int nutritionalValue;
     public double saturation;
     public MItemBlock eatResultItem;
     public boolean isMeat;
     public boolean isAlwaysEdible;
+    public boolean hasModel;
     public String animation;
-    public String normal;
-    public List<ArmPoseEntry> armPoseList;
 
-    private Aftifact() {
+    private Artifact() {
         this((ModElement)null);
     }
 
-    public static class ArmPoseEntry {
-        public String armHeld;
-        public String arm;
-        public String angle;
-        public Number rotation;
-        public boolean swings;
-        public boolean followsHead;
-    }
-
-    public Aftifact(ModElement element) {
+    public Artifact(ModElement element) {
         super(element);
         this.rarity = "COMMON";
         this.inventorySize = 9;
         this.inventoryStackSize = 64;
         this.saturation = 0.30000001192092896;
         this.animation = "eat";
-        this.armPoseList = new ArrayList<>();
+        this.slotAmount = 1;
+        this.slotType = "CURIO";
+        this.customProperties = new LinkedHashMap<>();
+        this.states = new ArrayList<>();
     }
 
-    public BufferedImage generateModElementPicture() {
-        return ImageUtils.resizeAndCrop(this.getModElement().getFolderManager().getTextureImageIcon(this.texture, TextureType.ITEM).getImage(), 32);
+    public List<Item.StateEntry> getModels() {
+        List<Item.StateEntry> models = new ArrayList<>();
+        List<String> builtinProperties = DataListLoader.loadDataList("itemproperties").stream()
+                .filter(e -> e.isSupportedInWorkspace(getModElement().getWorkspace())).map(DataListEntry::getName)
+                .toList();
+
+        states.forEach(state -> {
+            Item.StateEntry model = new Item.StateEntry();
+            model.setWorkspace(getModElement().getWorkspace());
+            model.renderType = state.renderType;
+            model.texture = state.texture;
+            model.customModelName = state.customModelName;
+
+            model.stateMap = new StateMap();
+            state.stateMap.forEach((prop, value) -> {
+                if (customProperties.containsKey(prop.getName().replace("CUSTOM:", "")) || builtinProperties.contains(
+                        prop.getName()))
+                    model.stateMap.put(prop, value);
+            });
+
+            // only add this state if at least one supported property is present
+            if (!model.stateMap.isEmpty())
+                models.add(model);
+        });
+        return models;
     }
 
     @Override public List<MCItem> providedMCItems() {
         return List.of(new MCItem.Custom(this.getModElement(), null, "item"));
     }
 
-    @Override public List<MCItem> getCreativeTabItems() {
-        return providedMCItems();
+    public BufferedImage generateModElementPicture() {
+        return ImageUtils.resizeAndCrop(this.getModElement().getFolderManager().getTextureImageIcon(this.texture, TextureType.ITEM).getImage(), 32);
     }
 
     public Model getItemModel() {
-        Model.Type modelType = Model.Type.BUILTIN;
-        if (this.renderType == 1) {
-            modelType = Model.Type.JSON;
-        } else if (this.renderType == 2) {
-            modelType = Model.Type.OBJ;
-        }
-
-        return Model.getModelByParams(this.getModElement().getWorkspace(), this.customModelName, modelType);
+        return Model.getModelByParams(getModElement().getWorkspace(), customModelName, Item.decodeModelType(renderType));
     }
 
     public Map<String, String> getTextureMap() {
-        Model model = this.getItemModel();
-        return model instanceof TexturedModel && ((TexturedModel)model).getTextureMapping() != null ? ((TexturedModel)model).getTextureMapping().getTextureMap() : null;
+        if (getItemModel() instanceof TexturedModel textured && textured.getTextureMapping() != null)
+            return textured.getTextureMapping().getTextureMap();
+        return new HashMap<>();
     }
 
     public TabEntry getCreativeTab() {
         return this.creativeTab;
+    }
+
+    @Override
+    public List<MCItem> getCreativeTabItems() {
+        return providedMCItems();
     }
 
     public String getTexture() {
@@ -133,11 +160,11 @@ public class Aftifact extends GeneratableElement implements IItem, IItemWithMode
     }
 
     public boolean hasNormalModel() {
-        return this.getItemModel().getType() == Model.Type.BUILTIN && this.getItemModel().getReadableName().equals("Normal");
+        return Item.decodeModelType(renderType) == Model.Type.BUILTIN && customModelName.equals("Normal");
     }
 
     public boolean hasToolModel() {
-        return this.getItemModel().getType() == Model.Type.BUILTIN && this.getItemModel().getReadableName().equals("Tool");
+        return Item.decodeModelType(renderType) == Model.Type.BUILTIN && customModelName.equals("Tool");
     }
 
     public boolean hasInventory() {
@@ -151,4 +178,9 @@ public class Aftifact extends GeneratableElement implements IItem, IItemWithMode
     public boolean hasEatResultItem() {
         return this.isFood && this.eatResultItem != null && !this.eatResultItem.isEmpty();
     }
+
+    public boolean hasModel() {
+        return this.hasModel && !baubleModel.equals("Default");
+    }
+
 }

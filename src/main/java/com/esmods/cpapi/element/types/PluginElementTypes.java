@@ -1,9 +1,7 @@
-package com.esmods.cpapi.registry;
+package com.esmods.cpapi.element.types;
 
-import com.esmods.cpapi.element.types.Aftifact;
-import com.esmods.cpapi.ui.modgui.ArtifactGUI;
 import net.mcreator.element.ModElementType;
-
+import com.esmods.cpapi.ui.modgui.ArtifactGUI;
 import static net.mcreator.element.ModElementTypeLoader.register;
 
 public class PluginElementTypes {
@@ -12,7 +10,8 @@ public class PluginElementTypes {
     public static void load() {
 
         ARTIFACT = register(
-                new ModElementType<>("artifact", (Character) 'I', ArtifactGUI::new, Aftifact.class)
+                new ModElementType<>("artifact", (Character) 'A', ArtifactGUI::new, Artifact.class)
         );
+
     }
 }
