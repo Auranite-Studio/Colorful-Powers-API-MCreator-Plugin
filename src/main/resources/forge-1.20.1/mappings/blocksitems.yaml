@@ -109,3 +109,6 @@ PowerModItems.VACUUM_STONE:
 PowerModItems.ENERGY_STONE:
   - PowerModItems.ENERGY_STONE.get()
   - "power:energy_stone"
+PowerModItems.SUN_STONE:
+  - PowerModItems.SUN_STONE.get()
+  - "power:sun_stone"
