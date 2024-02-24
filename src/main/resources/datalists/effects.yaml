@@ -1,46 +1,48 @@
 - POWER_LOCK:
-  texture: 8171462
+  texture: power_lock
 - FIRE_MASTER:
-  texture: 8171462
+  texture: fire_master
 - AIR_MASTER:
-  texture: 8171462
+  texture: air_master
 - EARTH_MASTER:
-  texture: 8171462
+  texture: earth_master
 - WATER_MASTER:
-  texture: 8171462
+  texture: water_master
 - ETHER_MASTER:
-  texture: 8171462
+  texture: ether_master
 - EARTH_MASTER:
-  texture: 8171462
+  texture: earth_master
 - ICE_MASTER:
-  texture: 8171462
+  texture: ice_master
 - LIGHTNING_MASTER:
-  texture: 8171462
+  texture: lightning_master
 - SOUND_MASTER:
-  texture: 8171462
+  texture: sound_master
 - CRYSTAL_MASTER:
-  texture: 8171462
+  texture: crystal_master
 - LAVA_MASTER:
-  texture: 8171462
+  texture: lava_master
 - RAIN_MASTER:
-  texture: 8171462
+  texture: rain_master
 - TORNADO_MASTER:
-  texture: 8171462
+  texture: tornado_master
 - OCEAN_MASTER:
-  texture: 8171462
+  texture: ocean_master
 - PLANTS_MASTER:
-  texture: 8171462
+  texture: plants_master
 - ANIMALS_MASTER:
-  texture: 8171462
+  texture: animals_master
 - METAL_MASTER:
-  texture: 8171462
+  texture: metal_master
 - LIGHT_MASTER:
-  texture: 8171462
+  texture: light_master
 - SHADOW_MASTER:
-  texture: 8171462
+  texture: shadow_master
 - VACUUM_MASTER:
-  texture: 8171462
+  texture: vacuum_master
 - ENERGY_MASTER:
-  texture: 8171462
+  texture: energy_master
 - SUN_MASTER:
-  texture: 8171462
+  texture: sun_master
+- MOON_MASTER:
+  texture: moon_master
