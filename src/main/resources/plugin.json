@@ -3,6 +3,7 @@
   "minversion": 202300400000,
   "maxversion": 202400199999,
   "weight": 51391,
+  "javaplugin": "com.esmods.cpapi.Launcher",
   "info": {
     "name": "Colorful Powers API",
     "version": "3",
