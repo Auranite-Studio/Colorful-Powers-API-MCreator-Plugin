@@ -150,3 +150,7 @@
   readable_name: "Sun Stone"
   type: item
   texture: sun_stone
+- PowerModItems.MOON_STONE:
+  readable_name: "Moon Stone"
+  type: item
+  texture: moon_stone

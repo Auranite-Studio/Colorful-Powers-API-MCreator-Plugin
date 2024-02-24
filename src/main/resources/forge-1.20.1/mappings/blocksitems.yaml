@@ -112,3 +112,6 @@ PowerModItems.ENERGY_STONE:
 PowerModItems.SUN_STONE:
   - PowerModItems.SUN_STONE.get()
   - "power:sun_stone"
+PowerModItems.MOON_STONE:
+  - PowerModItems.MOON_STONE.get()
+  - "power:moon_stone"
