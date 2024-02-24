@@ -1,0 +1,43 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "entity",
+      "check": "Entity"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "element_number",
+      "options": [
+        [
+          "FIRST",
+          "element_name_first"
+        ],
+        [
+          "SECOND",
+          "element_name_second"
+        ],
+        [
+          "THIRD",
+          "element_name_third"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "colour": "%{BKY_TEXTS_HUE}",
+  "mcreator": {
+    "group": "inventory",
+    "toolbox_id": "colorful_powers_api",
+    "toolbox_init": [
+      "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>"
+    ],
+    "inputs": [
+      "entity"
+    ],
+    "fields": [
+      "element_number"
+    ]
+  }
+}
