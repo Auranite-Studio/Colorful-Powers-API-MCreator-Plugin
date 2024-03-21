@@ -46,3 +46,7 @@
   texture: sun_master
 - MOON_MASTER:
   texture: moon_master
+- SPACE_MASTER:
+  texture: space_master
+- TIME_MASTER:
+  texture: time_master

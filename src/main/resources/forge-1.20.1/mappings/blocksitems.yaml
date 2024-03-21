@@ -115,3 +115,9 @@ PowerModItems.SUN_STONE:
 PowerModItems.MOON_STONE:
   - PowerModItems.MOON_STONE.get()
   - "power:moon_stone"
+PowerModItems.SPACE_STONE:
+  - PowerModItems.SPACE_STONE.get()
+  - "power:space_stone"
+PowerModItems.TIME_STONE:
+  - PowerModItems.TIME_STONE.get()
+  - "power:time_stone"

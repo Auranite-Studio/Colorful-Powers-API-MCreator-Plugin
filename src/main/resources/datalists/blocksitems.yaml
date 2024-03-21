@@ -154,3 +154,11 @@
   readable_name: "Moon Stone"
   type: item
   texture: moon_stone
+- PowerModItems.SPACE_STONE:
+  readable_name: "Space Stone"
+  type: item
+  texture: sun_stone
+- PowerModItems.TIME_STONE:
+  readable_name: "Time Stone"
+  type: item
+  texture: moon_stone
