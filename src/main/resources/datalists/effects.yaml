@@ -50,3 +50,7 @@
   texture: space_master
 - TIME_MASTER:
   texture: time_master
+- CREATION_MASTER:
+  texture: creation_master
+- DESTRUCTION_MASTER:
+  texture: destruction_master

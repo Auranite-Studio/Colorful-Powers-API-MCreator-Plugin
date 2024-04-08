@@ -1,3 +1,15 @@
+- PowerModItems.AMPLIFIER_ORE:
+  readable_name: "Amplifier Ore"
+  type: block
+  texture: amplifier_ore
+- PowerModItems.RAW_AMPLIFIER:
+  readable_name: "Raw Amplifier"
+  type: item
+  texture: raw_amplifier
+- PowerModItems.AMPLIFIER_DROP:
+  readable_name: "Amplifier Drop"
+  type: item
+  texture: amplifier_drop
 - PowerModItems.DEPLETED_ENERGIUM_ORE:
   readable_name: "Depleted Energium Ore"
   type: block
@@ -10,6 +22,10 @@
   readable_name: "Energium Block"
   type: block
   texture: energium_block
+- PowerModItems.ENERGIUM_CONTROLLER:
+  readable_name: "Energium Controller"
+  type: block
+  texture: energium_controller_on
 - PowerModItems.RAW_DEPLETED_ENERGIUM:
   readable_name: "Raw Depleted Energium"
   type: item
@@ -157,8 +173,16 @@
 - PowerModItems.SPACE_STONE:
   readable_name: "Space Stone"
   type: item
-  texture: sun_stone
+  texture: space_stone
 - PowerModItems.TIME_STONE:
   readable_name: "Time Stone"
   type: item
-  texture: moon_stone
+  texture: time_stone
+- PowerModItems.CREATION_STONE:
+  readable_name: "Creation Stone"
+  type: item
+  texture: creation_stone
+- PowerModItems.DESTRUCTION_STONE:
+  readable_name: "Destruction Stone"
+  type: item
+  texture: destruction_stone
