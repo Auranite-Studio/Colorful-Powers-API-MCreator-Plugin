@@ -1,6 +1,5 @@
 package com.esmods.cpapi;
 
-import com.esmods.cpapi.element.types.PluginElementTypes;
 import net.mcreator.plugin.JavaPlugin;
 import net.mcreator.plugin.Plugin;
 import net.mcreator.plugin.events.PreGeneratorsLoadingEvent;
@@ -13,8 +12,6 @@ public class Launcher extends JavaPlugin {
 
 	public Launcher(Plugin plugin) {
 		super(plugin);
-
-		addListener(PreGeneratorsLoadingEvent.class, e -> PluginElementTypes.load());
 
 		LOG.info("Plugin was loaded");
 	}
