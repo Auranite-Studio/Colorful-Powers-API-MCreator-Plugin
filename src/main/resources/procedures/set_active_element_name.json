@@ -35,7 +35,7 @@
   "colour": "%{BKY_TEXTS_HUE}",
   "mcreator": {
     "group": "inventory",
-    "toolbox_id": "colorful_powers_api",
+    "toolbox_id": "elements",
     "toolbox_init": [
       "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>",
       "<value name=\"variableValue\"><block type=\"text\"><field name=\"TEXT\">element_name</field></block></value>"
