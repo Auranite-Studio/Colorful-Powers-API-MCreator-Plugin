@@ -15,10 +15,10 @@ version = new JsonSlurper().parse(file('src/main/resources/plugin.json'))['info'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
-/* dependencies {
+dependencies {
     implementation project(':MCreator')
     implementation fileTree(dir: 'C:/MCreator/lib', include: ['*.jar'])
-} */
+}
 
 tasks.jar {
     archiveFileName.set("Colorful_Powers_API_Plugin.zip")
