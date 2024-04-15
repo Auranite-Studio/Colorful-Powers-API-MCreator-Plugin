@@ -1,0 +1,1 @@
+${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).use_ability_key_var
