@@ -3,9 +3,9 @@
   type: block
   texture: amplifier_ore
 - PowerModItems.AMPLIFIER_BLOCK:
-  readable_name: "Amplifier BLOCK"
+  readable_name: "Amplifier Block"
   type: block
-  texture: amplifier_ore
+  texture: amplifier_block
 - PowerModItems.RAW_AMPLIFIER:
   readable_name: "Raw Amplifier"
   type: item
