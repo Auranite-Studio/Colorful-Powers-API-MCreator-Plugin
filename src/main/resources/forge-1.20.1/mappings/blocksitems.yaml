@@ -1,6 +1,9 @@
 PowerModItems.AMPLIFIER_ORE:
   - PowerModBlocks.AMPLIFIER_ORE.get()
   - "power:amplifier_ore"
+PowerModItems.AMPLIFIER_BLOCK:
+  - PowerModBlocks.AMPLIFIER_BLOCK.get()
+  - "power:amplifier_block"
 PowerModItems.RAW_AMPLIFIER:
   - PowerModItems.RAW_AMPLIFIER.get()
   - "power:raw_amplifier"

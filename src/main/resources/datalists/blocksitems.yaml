@@ -2,6 +2,10 @@
   readable_name: "Amplifier Ore"
   type: block
   texture: amplifier_ore
+- PowerModItems.AMPLIFIER_BLOCK:
+  readable_name: "Amplifier BLOCK"
+  type: block
+  texture: amplifier_ore
 - PowerModItems.RAW_AMPLIFIER:
   readable_name: "Raw Amplifier"
   type: item
