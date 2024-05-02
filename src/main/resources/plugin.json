@@ -1,8 +1,7 @@
 {
   "id": "cpapi",
   "supportedversions": [
-    202400115713,
-    202400115821
+    2024001
   ],
   "weight": 93,
   "javaplugin": "com.esmods.cpapi.Launcher",

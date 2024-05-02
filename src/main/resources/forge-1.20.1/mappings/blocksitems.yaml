@@ -1,6 +1,9 @@
 PowerModItems.AMPLIFIER_ORE:
   - PowerModBlocks.AMPLIFIER_ORE.get()
   - "power:amplifier_ore"
+PowerModItems.RAW_AMPLIFIER_BLOCK:
+  - PowerModBlocks.RAW_AMPLIFIER_BLOCK.get()
+  - "power:raw_amplifier_block"
 PowerModItems.AMPLIFIER_BLOCK:
   - PowerModBlocks.AMPLIFIER_BLOCK.get()
   - "power:amplifier_block"
@@ -13,6 +16,9 @@ PowerModItems.AMPLIFIER_DROP:
 PowerModItems.DEPLETED_ENERGIUM_ORE:
   - PowerModBlocks.DEPLETED_ENERGIUM_ORE.get()
   - "power:depleted_energium_ore"
+PowerModItems.RAW_DEPLETED_ENERGIUM_BLOCK:
+  - PowerModBlocks.RAW_DEPLETED_ENERGIUM_BLOCK.get()
+  - "power:depleted_energium_block"
 PowerModItems.DEPLETED_ENERGIUM_BLOCK:
   - PowerModBlocks.DEPLETED_ENERGIUM_BLOCK.get()
   - "power:depleted_energium_block"

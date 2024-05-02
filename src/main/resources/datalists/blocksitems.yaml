@@ -2,6 +2,10 @@
   readable_name: "Amplifier Ore"
   type: block
   texture: amplifier_ore
+- PowerModItems.RAW_AMPLIFIER_BLOCK:
+  readable_name: "Raw Amplifier Block"
+  type: block
+  texture: raw_amplifier_block
 - PowerModItems.AMPLIFIER_BLOCK:
   readable_name: "Amplifier Block"
   type: block
@@ -18,6 +22,10 @@
   readable_name: "Depleted Energium Ore"
   type: block
   texture: depleted_energium_ore
+- PowerModItems.RAW_DEPLETED_ENERGIUM_BLOCK:
+  readable_name: "Raw Depleted Energium Block"
+  type: block
+  texture: raw_depleted_energium_block
 - PowerModItems.DEPLETED_ENERGIUM_BLOCK:
   readable_name: "Depleted Energium Block"
   type: block
