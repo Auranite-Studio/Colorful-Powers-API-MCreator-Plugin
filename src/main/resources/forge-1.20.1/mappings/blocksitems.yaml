@@ -142,3 +142,6 @@ PowerModItems.CREATION_STONE:
 PowerModItems.DESTRUCTION_STONE:
   - PowerModItems.DESTRUCTION_STONE.get()
   - "power:destruction_stone"
+PowerModItems.BLOOD_STONE:
+  - PowerModItems.BLOOD_STONE.get()
+  - "power:blood_stone"

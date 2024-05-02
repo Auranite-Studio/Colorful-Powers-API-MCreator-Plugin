@@ -18,7 +18,7 @@ forge-1.20.1:
     }
     
      dependencies {
-       implementation fg.deobf("maven.modrinth:keepers-of-the-stones-2:1.0.0.17")
+       implementation fg.deobf("maven.modrinth:keepers-of-the-stones-2:1.0.0.20")
      }
   update_files:
     - ~

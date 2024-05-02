@@ -190,3 +190,7 @@
   readable_name: "Destruction Stone"
   type: item
   texture: destruction_stone
+- PowerModItems.BLOOD_STONE:
+  readable_name: "Blood Stone"
+  type: item
+  texture: blood_stone

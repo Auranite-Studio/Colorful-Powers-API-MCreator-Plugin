@@ -54,3 +54,5 @@
   texture: creation_master
 - DESTRUCTION_MASTER:
   texture: destruction_master
+- BLOOD_MASTER:
+  texture: blood_master
