@@ -151,3 +151,9 @@ PowerModItems.DESTRUCTION_STONE:
 PowerModItems.BLOOD_STONE:
   - PowerModItems.BLOOD_STONE.get()
   - "power:blood_stone"
+PowerModItems.TECHNOLOGY_STONE:
+  - PowerModItems.TECHNOLOGY_STONE.get()
+  - "power:technology_stone"
+PowerModItems.TELEPORTATION_STONE:
+  - PowerModItems.TELEPORTATION_STONE.get()
+  - "power:teleportation_stone"

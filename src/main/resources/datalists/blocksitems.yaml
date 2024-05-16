@@ -202,3 +202,11 @@
   readable_name: "Blood Stone"
   type: item
   texture: blood_stone
+- PowerModItems.TECHNOLOGY_STONE:
+  readable_name: "Technology Stone"
+  type: item
+  texture: technology_stone
+- PowerModItems.TELEPORTATION_STONE:
+  readable_name: "Teleportation Stone"
+  type: item
+  texture: teleportation_stone
