@@ -157,3 +157,6 @@ PowerModItems.TECHNOLOGY_STONE:
 PowerModItems.TELEPORTATION_STONE:
   - PowerModItems.TELEPORTATION_STONE.get()
   - "power:teleportation_stone"
+PowerModItems.EXPLOSION_STONE:
+  - PowerModItems.EXPLOSION_STONE.get()
+  - "power:explosion_stone"

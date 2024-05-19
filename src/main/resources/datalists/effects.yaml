@@ -60,3 +60,5 @@
   texture: technology_master
 - TELEPORTATION_MASTER:
   texture: teleportation_master
+- EXPLOSION_MASTER:
+  texture: explosion_master
