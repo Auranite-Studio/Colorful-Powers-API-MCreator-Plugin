@@ -214,3 +214,7 @@
   readable_name: "Explosion Stone"
   type: item
   texture: explosion_stone
+- PowerModItems.AMBER_STONE:
+  readable_name: "Amber Stone"
+  type: item
+  texture: amber_stone

@@ -9,6 +9,36 @@
       "type": "input_value",
       "name": "variableValue",
       "check": "Boolean"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "wheel_number",
+      "options": [
+        [
+          "FIRST",
+          "wheel_open_key_var"
+        ],
+        [
+          "SECOND",
+          "second_wheel_open_var"
+        ],
+        [
+          "THIRD",
+          "third_wheel_open_var"
+        ],
+        [
+          "FAKE_FIRST",
+          "first_fake_wheel_open_var"
+        ],
+        [
+          "FAKE_SECOND",
+          "second_fake_wheel_open_var"
+        ],
+        [
+          "FAKE_THIRD",
+          "third_fake_wheel_open_var"
+        ]
+      ]
     }
   ],
   "inputsInline": true,
@@ -25,6 +55,9 @@
     "inputs": [
       "entity",
       "variableValue"
+    ],
+    "fields": [
+      "wheel_number"
     ]
   }
 }

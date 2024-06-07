@@ -160,3 +160,6 @@ PowerModItems.TELEPORTATION_STONE:
 PowerModItems.EXPLOSION_STONE:
   - PowerModItems.EXPLOSION_STONE.get()
   - "power:explosion_stone"
+PowerModItems.AMBER_STONE:
+  - PowerModItems.AMBER_STONE.get()
+  - "power:amber_stone"

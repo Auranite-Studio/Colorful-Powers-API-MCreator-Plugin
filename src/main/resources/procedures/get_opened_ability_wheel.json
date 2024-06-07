@@ -7,41 +7,41 @@
     },
     {
       "type": "field_dropdown",
-      "name": "element_number",
+      "name": "wheel_number",
       "options": [
         [
           "FIRST",
-          "element_name_first"
+          "wheel_open_key_var"
         ],
         [
           "SECOND",
-          "element_name_second"
+          "second_wheel_open_var"
         ],
         [
           "THIRD",
-          "element_name_third"
+          "third_wheel_open_var"
         ],
         [
           "FAKE_FIRST",
-          "fake_element_name_first"
+          "first_fake_wheel_open_var"
         ],
         [
           "FAKE_SECOND",
-          "fake_element_name_second"
+          "second_fake_wheel_open_var"
         ],
         [
           "FAKE_THIRD",
-          "fake_element_name_third"
+          "third_fake_wheel_open_var"
         ]
       ]
     }
   ],
   "inputsInline": true,
-  "output": "String",
-  "colour": "%{BKY_TEXTS_HUE}",
+  "output": "Boolean",
+  "colour": "%{BKY_LOGIC_HUE}",
   "mcreator": {
     "group": "inventory",
-    "toolbox_id": "elements",
+    "toolbox_id": "keybinds",
     "toolbox_init": [
       "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>"
     ],
@@ -49,7 +49,7 @@
       "entity"
     ],
     "fields": [
-      "element_number"
+      "wheel_number"
     ]
   }
 }
