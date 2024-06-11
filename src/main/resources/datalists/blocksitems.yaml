@@ -37,7 +37,7 @@
 - PowerModItems.ENERGIUM_CONTROLLER:
   readable_name: "Energium Controller"
   type: block
-  texture: energium_controller_on
+  texture: energium_controller
 - PowerModItems.RAW_DEPLETED_ENERGIUM:
   readable_name: "Raw Depleted Energium"
   type: item
