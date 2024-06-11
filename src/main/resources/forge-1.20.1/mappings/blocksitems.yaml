@@ -163,3 +163,15 @@ PowerModItems.EXPLOSION_STONE:
 PowerModItems.AMBER_STONE:
   - PowerModItems.AMBER_STONE.get()
   - "power:amber_stone"
+PowerModItems.MIST_STONE:
+  - PowerModItems.MIST_STONE.get()
+  - "power:mist_stone"
+PowerModItems.SAND_STONE:
+  - PowerModItems.SAND_STONE.get()
+  - "power:sand_stone"
+PowerModItems.SPEED_STONE:
+  - PowerModItems.SPEED_STONE.get()
+  - "power:speed_stone"
+PowerModItems.POISON_STONE:
+  - PowerModItems.POISON_STONE.get()
+  - "power:poison_stone"

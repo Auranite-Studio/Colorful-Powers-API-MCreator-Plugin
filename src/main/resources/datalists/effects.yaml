@@ -64,3 +64,11 @@
   texture: explosion_master
 - AMBER_MASTER:
   texture: amber_master
+- MIST_MASTER:
+  texture: mist_master
+- SAND_MASTER:
+  texture: sand_master
+- SPEED_MASTER:
+  texture: speed_master
+- POISON_MASTER:
+  texture: poison_master

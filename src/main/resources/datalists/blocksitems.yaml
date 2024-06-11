@@ -218,3 +218,19 @@
   readable_name: "Amber Stone"
   type: item
   texture: amber_stone
+- PowerModItems.MIST_STONE:
+  readable_name: "Mist Stone"
+  type: item
+  texture: mist_stone
+- PowerModItems.SAND_STONE:
+  readable_name: "Sand Stone"
+  type: item
+  texture: sand_stone
+- PowerModItems.SPEED_STONE:
+  readable_name: "Speed Stone"
+  type: item
+  texture: speed_stone
+- PowerModItems.POISON_STONE:
+  readable_name: "Poison Stone"
+  type: item
+  texture: poison_stone
