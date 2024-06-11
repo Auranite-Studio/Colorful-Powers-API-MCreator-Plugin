@@ -13,6 +13,9 @@ PowerModItems.RAW_AMPLIFIER:
 PowerModItems.AMPLIFIER_DROP:
   - PowerModItems.AMPLIFIER_DROP.get()
   - "power:amplifier_drop"
+PowerModItems.AMPLIFIER_RING:
+  - PowerModItems.AMPLIFIER_RING.get()
+  - "power:amplifier_ring"
 PowerModItems.DEPLETED_ENERGIUM_ORE:
   - PowerModBlocks.DEPLETED_ENERGIUM_ORE.get()
   - "power:depleted_energium_ore"

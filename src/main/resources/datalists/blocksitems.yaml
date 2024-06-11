@@ -18,6 +18,10 @@
   readable_name: "Amplifier Drop"
   type: item
   texture: amplifier_drop
+- PowerModItems.AMPLIFIER_RING:
+  readable_name: "Amplifier Ring"
+  type: item
+  texture: amplifier_ring
 - PowerModItems.DEPLETED_ENERGIUM_ORE:
   readable_name: "Depleted Energium Ore"
   type: block
