@@ -72,3 +72,5 @@
   texture: speed_master
 - POISON_MASTER:
   texture: poison_master
+- MAGNET_MASTER:
+  texture: magnet_master

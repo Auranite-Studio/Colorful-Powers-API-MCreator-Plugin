@@ -22,6 +22,26 @@
   readable_name: "Amplifier Ring"
   type: item
   texture: amplifier_ring
+- PowerModItems.COPYRIUM_ORE:
+  readable_name: "Copyrium Ore"
+  type: block
+  texture: copyrium_ore
+- PowerModItems.RAW_COPYRIUM_BLOCK:
+  readable_name: "Raw Copyrium Block"
+  type: block
+  texture: raw_copyrium_block
+- PowerModItems.COPYRIUM_BLOCK:
+  readable_name: "Copyrium Block"
+  type: block
+  texture: copyrium_block
+- PowerModItems.RAW_COPYRIUM:
+  readable_name: "Raw Copyrium"
+  type: item
+  texture: raw_copyrium
+- PowerModItems.COPYRIUM_INGOT:
+  readable_name: "Copyrium Ingot"
+  type: item
+  texture: copyrium_ingot
 - PowerModItems.DEPLETED_ENERGIUM_ORE:
   readable_name: "Depleted Energium Ore"
   type: block
@@ -238,3 +258,7 @@
   readable_name: "Poison Stone"
   type: item
   texture: poison_stone
+- PowerModItems.MAGNET_STONE:
+  readable_name: "Magnet Stone"
+  type: item
+  texture: magnet_stone
