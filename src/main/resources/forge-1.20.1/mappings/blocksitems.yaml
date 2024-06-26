@@ -196,3 +196,6 @@ PowerModItems.POISON_STONE:
 PowerModItems.MAGNET_STONE:
   - PowerModItems.MAGNET_STONE.get()
   - "power:magnet_stone"
+PowerModItems.MUSHROOMS_STONE:
+  - PowerModItems.MUSHROOMS_STONE.get()
+  - "power:mushrooms_stone"

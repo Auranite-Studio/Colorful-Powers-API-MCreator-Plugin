@@ -74,3 +74,5 @@
   texture: poison_master
 - MAGNET_MASTER:
   texture: magnet_master
+- MUSHROOMS_MASTER:
+  texture: mushrooms_master
