@@ -13,6 +13,24 @@ PowerModItems.RAW_AMPLIFIER:
 PowerModItems.AMPLIFIER_DROP:
   - PowerModItems.AMPLIFIER_DROP.get()
   - "power:amplifier_drop"
+PowerModItems.AMPLIFIER_RING:
+  - PowerModItems.AMPLIFIER_RING.get()
+  - "power:amplifier_ring"
+PowerModItems.COPYRIUM_ORE:
+  - PowerModBlocks.COPYRIUM_ORE.get()
+  - "power:copyrium_ore"
+PowerModItems.RAW_COPYRIUM_BLOCK:
+  - PowerModBlocks.RAW_COPYRIUM_BLOCK.get()
+  - "power:raw_copyrium_block"
+PowerModItems.COPYRIUM_BLOCK:
+  - PowerModBlocks.COPYRIUM_BLOCK.get()
+  - "power:copyrium_block"
+PowerModItems.RAW_COPYRIUM:
+  - PowerModItems.RAW_COPYRIUM.get()
+  - "power:raw_copyrium"
+PowerModItems.COPYRIUM_INGOT:
+  - PowerModItems.COPYRIUM_INGOT.get()
+  - "power:copyrium_ingot"
 PowerModItems.DEPLETED_ENERGIUM_ORE:
   - PowerModBlocks.DEPLETED_ENERGIUM_ORE.get()
   - "power:depleted_energium_ore"
@@ -157,6 +175,27 @@ PowerModItems.TECHNOLOGY_STONE:
 PowerModItems.TELEPORTATION_STONE:
   - PowerModItems.TELEPORTATION_STONE.get()
   - "power:teleportation_stone"
-#PowerModItems.EXPLOSION_STONE:
-#  - PowerModItems.EXPLOSION_STONE.get()
-#  - "power:explosion_stone"
+PowerModItems.EXPLOSION_STONE:
+  - PowerModItems.EXPLOSION_STONE.get()
+  - "power:explosion_stone"
+PowerModItems.AMBER_STONE:
+  - PowerModItems.AMBER_STONE.get()
+  - "power:amber_stone"
+PowerModItems.MIST_STONE:
+  - PowerModItems.MIST_STONE.get()
+  - "power:mist_stone"
+PowerModItems.SAND_STONE:
+  - PowerModItems.SAND_STONE.get()
+  - "power:sand_stone"
+PowerModItems.SPEED_STONE:
+  - PowerModItems.SPEED_STONE.get()
+  - "power:speed_stone"
+PowerModItems.POISON_STONE:
+  - PowerModItems.POISON_STONE.get()
+  - "power:poison_stone"
+PowerModItems.MAGNET_STONE:
+  - PowerModItems.MAGNET_STONE.get()
+  - "power:magnet_stone"
+PowerModItems.MUSHROOMS_STONE:
+  - PowerModItems.MUSHROOMS_STONE.get()
+  - "power:mushrooms_stone"
