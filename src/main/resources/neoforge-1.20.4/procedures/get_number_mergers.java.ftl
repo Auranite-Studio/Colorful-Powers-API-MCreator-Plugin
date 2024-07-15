@@ -1,1 +1,1 @@
-${entity}.getData(PowerModVariables.PLAYER_VARIABLES).mergers
+${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).mergers
