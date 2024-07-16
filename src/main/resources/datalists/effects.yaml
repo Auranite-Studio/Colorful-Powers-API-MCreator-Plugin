@@ -10,8 +10,6 @@
   texture: water_master
 - ETHER_MASTER:
   texture: ether_master
-- EARTH_MASTER:
-  texture: earth_master
 - ICE_MASTER:
   texture: ice_master
 - LIGHTNING_MASTER:
