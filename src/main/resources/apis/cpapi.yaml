@@ -7,7 +7,7 @@ neoforge-1.20.4:
     }
     
      dependencies {
-        implementation 'maven.modrinth:keepers-of-the-stones-2:hKbKT6ME'
+        implementation 'maven.modrinth:keepers-of-the-stones-2:ZRqCdcDc'
      }
 forge-1.20.1:
   gradle: |
