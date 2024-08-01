@@ -266,3 +266,7 @@
   readable_name: "Mushrooms Stone"
   type: item
   texture: mushrooms_stone
+- PowerModItems.MERCURY_STONE:
+  readable_name: "Mercury Stone"
+  type: item
+  texture: mercury_stone

@@ -7,7 +7,7 @@ neoforge-1.20.4:
     }
     
      dependencies {
-        implementation 'maven.modrinth:keepers-of-the-stones-2:ZRqCdcDc'
+        implementation 'maven.modrinth:keepers-of-the-stones-2:QiTkvz6l'
      }
 forge-1.20.1:
   gradle: |
@@ -18,7 +18,7 @@ forge-1.20.1:
     }
     
      dependencies {
-       implementation fg.deobf("maven.modrinth:keepers-of-the-stones-2:aglv1wno")
+       implementation fg.deobf("maven.modrinth:keepers-of-the-stones-2:i61bu6BU")
      }
   update_files:
     - ~
