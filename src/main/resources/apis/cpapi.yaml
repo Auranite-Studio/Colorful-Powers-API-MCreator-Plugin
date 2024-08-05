@@ -9,7 +9,8 @@ neoforge-1.20.6:
      dependencies {
         implementation 'maven.modrinth:keepers-of-the-stones-2:FMm4148i'
      }
-
+  update_files:
+    - ~
 neoforge-1.20.4:
   gradle: |
     repositories {
@@ -21,6 +22,8 @@ neoforge-1.20.4:
      dependencies {
         implementation 'maven.modrinth:keepers-of-the-stones-2:KS8A5lKU'
      }
+  update_files:
+    - ~
 forge-1.20.1:
   gradle: |
     repositories {
