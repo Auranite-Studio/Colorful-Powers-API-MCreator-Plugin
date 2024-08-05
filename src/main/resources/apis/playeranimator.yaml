@@ -1,19 +1,18 @@
 ---
 neoforge-1.20.6:
-gradle: |
-    repositories {
-     maven {
-         url = 'https://maven.kosmx.dev/'
-     }
-    }
-    
-     dependencies {
-    <!--       implementation 'dev.kosmx.player-anim:player-animation-lib-forge:1.0.2-rc1+1.20.6'-->
-     }
+    gradle: |
+        repositories {
+         maven {
+             url = 'https://maven.kosmx.dev/'
+         }
+        }
+        
+         dependencies {
+           implementation 'dev.kosmx.player-anim:player-animation-lib-forge:1.0.2-rc1+1.20.6'
+         }
 
-update_files:
-    - ~
-
+    update_files:
+        - ~
 neoforge-1.20.4:
   gradle: |
       repositories {
@@ -28,7 +27,6 @@ neoforge-1.20.4:
 
   update_files:
     - ~
-
 forge-1.20.1:
   gradle: |
       minecraft {
