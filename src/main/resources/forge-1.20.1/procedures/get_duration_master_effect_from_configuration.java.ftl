@@ -1,0 +1,1 @@
+((double) PowerConfigConfiguration.THE_DURATION_OF_THE_STONE_POWER.get() * 20)

@@ -1,0 +1,12 @@
+{
+  "args0": [],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": "%{BKY_MATH_HUE}",
+  "mcreator": {
+    "group": "inventory",
+    "toolbox_id": "powers&mergers",
+    "toolbox_init": [],
+    "inputs": []
+  }
+}
