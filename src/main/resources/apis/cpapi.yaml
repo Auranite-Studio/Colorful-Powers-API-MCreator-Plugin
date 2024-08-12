@@ -7,7 +7,7 @@ neoforge-1.20.6:
     }
     
      dependencies {
-        implementation 'maven.modrinth:keepers-of-the-stones-2:FMm4148i'
+        implementation 'maven.modrinth:keepers-of-the-stones-2:HRlF7bSf'
      }
   update_files:
     - ~
@@ -20,7 +20,7 @@ neoforge-1.20.4:
     }
     
      dependencies {
-        implementation 'maven.modrinth:keepers-of-the-stones-2:KS8A5lKU'
+        implementation 'maven.modrinth:keepers-of-the-stones-2:Df21gLW9'
      }
   update_files:
     - ~
@@ -33,7 +33,7 @@ forge-1.20.1:
     }
     
      dependencies {
-       implementation fg.deobf("maven.modrinth:keepers-of-the-stones-2:OX7erhh7")
+       implementation fg.deobf("maven.modrinth:keepers-of-the-stones-2:JvB4PxkO")
      }
   update_files:
     - ~
