@@ -270,3 +270,7 @@
   readable_name: "Mercury Stone"
   type: item
   texture: mercury_stone
+- PowerModItems.MUSIC_STONE:
+  readable_name: "Music Stone"
+  type: item
+  texture: music_stone

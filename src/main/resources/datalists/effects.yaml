@@ -76,3 +76,5 @@
   texture: mushrooms_master
 - MERCURY_MASTER:
   texture: mercury_master
+- MUSIC_MASTER:
+  texture: music_master

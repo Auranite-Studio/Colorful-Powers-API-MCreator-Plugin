@@ -202,3 +202,6 @@ PowerModItems.MUSHROOMS_STONE:
 PowerModItems.MERCURY_STONE:
   - PowerModItems.MERCURY_STONE.get()
   - "power:mercury_stone"
+PowerModItems.MUSIC_STONE:
+  - PowerModItems.MUSIC_STONE.get()
+  - "power:music_stone"

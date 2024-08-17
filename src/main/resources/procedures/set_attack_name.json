@@ -20,7 +20,7 @@
     "toolbox_id": "elements",
     "toolbox_init": [
       "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>",
-      "<value name=\"variableValue\"><block type=\"text\"><field name=\"TEXT\">elemental_attack_1</field></block></value>"
+      "<value name=\"variableValue\"><block type=\"text\"><field name=\"TEXT\">elemental_ability_1</field></block></value>"
     ],
     "inputs": [
       "entity",

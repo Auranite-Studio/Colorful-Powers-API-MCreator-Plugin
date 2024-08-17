@@ -1,1 +1,1 @@
-${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).attack
+${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).ability
