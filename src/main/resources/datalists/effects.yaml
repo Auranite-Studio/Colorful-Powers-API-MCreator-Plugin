@@ -78,3 +78,7 @@
   texture: mercury_master
 - MUSIC_MASTER:
   texture: music_master
+- PLAGUE_MASTER:
+  texture: plague_master
+- BLUE_FLAME_MASTER:
+  texture: blue_flame_master

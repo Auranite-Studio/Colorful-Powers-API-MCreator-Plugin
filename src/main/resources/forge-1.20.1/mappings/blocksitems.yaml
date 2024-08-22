@@ -205,3 +205,9 @@ PowerModItems.MERCURY_STONE:
 PowerModItems.MUSIC_STONE:
   - PowerModItems.MUSIC_STONE.get()
   - "power:music_stone"
+PowerModItems.PLAGUE_STONE:
+  - PowerModItems.PLAGUE_STONE.get()
+  - "power:plague_stone"
+PowerModItems.BLUE_FLAME_STONE:
+  - PowerModItems.BLUE_FLAME_STONE.get()
+  - "power:blue_flame_stone"

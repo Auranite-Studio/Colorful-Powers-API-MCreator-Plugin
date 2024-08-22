@@ -1,3 +1,2 @@
-13:
-- Added support for Keepers of the Stones 1.0.0.37
-- The name of some procedures has been changed due to the renaming of the variable from ``attack`` to ``ability``
+13.1:
+- Added support for Keepers of the Stones 1.0.0.38

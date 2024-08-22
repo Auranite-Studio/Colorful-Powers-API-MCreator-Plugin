@@ -274,3 +274,11 @@
   readable_name: "Music Stone"
   type: item
   texture: music_stone
+- PowerModItems.PLAGUE_STONE:
+  readable_name: "Plague Stone"
+  type: item
+  texture: plague_stone
+- PowerModItems.BLUE_FLAME_STONE:
+  readable_name: "Blue Flame Stone"
+  type: item
+  texture: blue_flame_stone
