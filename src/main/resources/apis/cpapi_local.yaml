@@ -1,6 +1,6 @@
 neoforge-1.20.4:
   gradle: |
      dependencies {
-        implementation files('C:/Users/Alexey/Desktop/power-1.0.0.39.240820242010-neoforge-1.20.4.jar')
+        implementation files('C:/Users/Alexey/Desktop/power-1.0.0.39.240820242115-neoforge-1.20.4.jar')
      }
 name: "Colorful Powers API LFT (Don't use)"
