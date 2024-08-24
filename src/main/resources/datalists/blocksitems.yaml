@@ -282,3 +282,7 @@
   readable_name: "Blue Flame Stone"
   type: item
   texture: blue_flame_stone
+- PowerModItems.GRAVITY_STONE:
+  readable_name: "Gravity Stone"
+  type: item
+  texture: gravity_stone

@@ -82,3 +82,5 @@
   texture: plague_master
 - BLUE_FLAME_MASTER:
   texture: blue_flame_master
+- GRAVITY_MASTER:
+  texture: gravity_master
