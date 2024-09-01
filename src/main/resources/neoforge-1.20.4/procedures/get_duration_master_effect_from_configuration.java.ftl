@@ -1,1 +1,1 @@
-((double) PowerConfigConfiguration.THE_DURATION_OF_THE_STONE_POWER.get() * 20)
+((double) PowerConfigConfiguration.MASTER_EFFECT_DURATION.get() * 20)

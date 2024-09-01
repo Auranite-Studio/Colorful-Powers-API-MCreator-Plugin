@@ -1,2 +1,2 @@
 ((${input$entity}.getCapability(PowerModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-.orElse(new PowerModVariables.PlayerVariables())).active)
+.orElse(new PowerModVariables.PlayerVariables())).active_power)

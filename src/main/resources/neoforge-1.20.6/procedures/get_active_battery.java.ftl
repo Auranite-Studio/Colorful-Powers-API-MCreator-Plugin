@@ -1,1 +1,1 @@
-${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).battery
+${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).active_battery
