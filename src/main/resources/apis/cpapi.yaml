@@ -1,3 +1,16 @@
+neoforge-1.21.1:
+  gradle: |
+    repositories {
+     maven {
+         url = 'https://api.modrinth.com/maven'
+     }
+    }
+    
+     dependencies {
+        implementation 'maven.modrinth:keepers-of-the-stones-2:t5ib9w3E'
+     }
+  update_files:
+    - ~
 neoforge-1.20.6:
   gradle: |
     repositories {
@@ -7,7 +20,7 @@ neoforge-1.20.6:
     }
     
      dependencies {
-        implementation 'maven.modrinth:keepers-of-the-stones-2:FBd89oWw'
+        implementation 'maven.modrinth:keepers-of-the-stones-2:9335hjeD'
      }
   update_files:
     - ~
@@ -20,7 +33,7 @@ neoforge-1.20.4:
     }
     
      dependencies {
-        implementation 'maven.modrinth:keepers-of-the-stones-2:ao8qwQ7m'
+        implementation 'maven.modrinth:keepers-of-the-stones-2:kRvy0IlG'
      }
   update_files:
     - ~
@@ -33,7 +46,7 @@ forge-1.20.1:
     }
     
      dependencies {
-       implementation fg.deobf("maven.modrinth:keepers-of-the-stones-2:dk9NBb38")
+       implementation fg.deobf("maven.modrinth:keepers-of-the-stones-2:3UfC5OYA")
      }
   update_files:
     - ~

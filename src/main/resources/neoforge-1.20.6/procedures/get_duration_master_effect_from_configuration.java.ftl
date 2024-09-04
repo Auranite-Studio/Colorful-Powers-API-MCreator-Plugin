@@ -1,1 +1,1 @@
-((double) PowerConfigConfiguration.MASTER_EFFECT_DURATION.get() * 20)
+(PowerModVariables.MapVariables.get(world).master_effect_duration * 20)
