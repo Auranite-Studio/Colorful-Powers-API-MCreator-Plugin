@@ -67,7 +67,7 @@ neoforge-1.21.1:
     }
     
     dependencies {
-      implementation 'software.bernie.geckolib:geckolib-neoforge-1.21:4.5.7'
+      implementation 'software.bernie.geckolib:geckolib-neoforge-1.21:4.6.3'
     }
   update_files:
     - ~
