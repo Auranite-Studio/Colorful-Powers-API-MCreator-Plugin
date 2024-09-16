@@ -84,3 +84,5 @@
   texture: blue_flame_master
 - GRAVITY_MASTER:
   texture: gravity_master
+- SMOKE_MASTER:
+  texture: smoke_master

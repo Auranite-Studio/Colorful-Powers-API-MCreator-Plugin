@@ -14,21 +14,6 @@ neoforge-1.21.1:
     update_files:
         - ~
 
-neoforge-1.20.6:
-    gradle: |
-        repositories {
-         maven {
-             url = 'https://cursemaven.com'
-         }
-        }
-        
-         dependencies {
-           implementation 'curse.maven:keepers-of-the-stones-ii-906406:5648080'
-         }
-
-    update_files:
-        - ~
-
 neoforge-1.20.4:
   gradle: |
       repositories {

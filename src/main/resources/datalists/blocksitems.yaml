@@ -286,3 +286,7 @@
   readable_name: "Gravity Stone"
   type: item
   texture: gravity_stone
+- PowerModItems.SMOKE_STONE:
+  readable_name: "Smoke Stone"
+  type: item
+  texture: smoke_stone

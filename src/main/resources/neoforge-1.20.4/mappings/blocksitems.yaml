@@ -214,3 +214,6 @@ PowerModItems.BLUE_FLAME_STONE:
 PowerModItems.GRAVITY_STONE:
   - PowerModItems.GRAVITY_STONE.get()
   - "power:gravity_stone"
+PowerModItems.SMOKE_STONE:
+  - PowerModItems.SMOKE_STONE.get()
+  - "power:smoke_stone"
