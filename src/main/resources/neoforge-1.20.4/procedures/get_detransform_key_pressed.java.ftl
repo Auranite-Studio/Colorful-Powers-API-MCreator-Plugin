@@ -1,1 +1,0 @@
-${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).detransf_key_var

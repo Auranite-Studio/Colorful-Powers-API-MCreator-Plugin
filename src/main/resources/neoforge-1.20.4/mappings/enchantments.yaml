@@ -1,6 +1,0 @@
-REVENGE:
-  - PowerModEnchantments.REVENGE.get()
-  - power:revenge
-ISOLATION:
-  - PowerModEnchantments.ISOLATION.get()
-  - power:isolation
