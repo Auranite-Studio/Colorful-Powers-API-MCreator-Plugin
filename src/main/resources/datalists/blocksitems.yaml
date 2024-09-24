@@ -2,6 +2,10 @@
   readable_name: "Amplifier Ore"
   type: block
   texture: amplifier_ore
+- PowerModItems.DEEPSLATE_AMPLIFIER_ORE:
+  readable_name: "Deepslate Amplifier Ore"
+  type: block
+  texture: deepslate_amplifier_ore
 - PowerModItems.RAW_AMPLIFIER_BLOCK:
   readable_name: "Raw Amplifier Block"
   type: block
@@ -26,6 +30,10 @@
   readable_name: "Copyrium Ore"
   type: block
   texture: copyrium_ore
+- PowerModItems.DEEPSLATE_COPYRIUM_ORE:
+  readable_name: "Deepslate Copyrium Ore"
+  type: block
+  texture: deepslate_copyrium_ore
 - PowerModItems.RAW_COPYRIUM_BLOCK:
   readable_name: "Raw Copyrium Block"
   type: block
@@ -34,6 +42,10 @@
   readable_name: "Copyrium Block"
   type: block
   texture: copyrium_block
+- PowerModItems.ELEMENTAL_POWER_GENERATOR:
+  readable_name: "Elemental Power Generator"
+  type: block
+  texture: elemental_power_generator
 - PowerModItems.RAW_COPYRIUM:
   readable_name: "Raw Copyrium"
   type: item
@@ -46,10 +58,26 @@
   readable_name: "Depleted Energium Ore"
   type: block
   texture: depleted_energium_ore
+- PowerModItems.ENERGIUM_ORE:
+  readable_name: "Energium Ore"
+  type: block
+  texture: energium_ore
+- PowerModItems.DEEPSLATE_DEPLETED_ENERGIUM_ORE:
+  readable_name: "Deepslate Depleted Energium Ore"
+  type: block
+  texture: deepslate_depleted_energium_ore
+- PowerModItems.DEEPSLATE_ENERGIUM_ORE:
+  readable_name: "Deepslate Energium Ore"
+  type: block
+  texture: deepslate_energium_ore
 - PowerModItems.RAW_DEPLETED_ENERGIUM_BLOCK:
   readable_name: "Raw Depleted Energium Block"
   type: block
   texture: raw_depleted_energium_block
+- PowerModItems.RAW_ENERGIUM_BLOCK:
+  readable_name: "Raw Energium Block"
+  type: block
+  texture: raw_energium_block
 - PowerModItems.DEPLETED_ENERGIUM_BLOCK:
   readable_name: "Depleted Energium Block"
   type: block
@@ -58,6 +86,10 @@
   readable_name: "Energium Block"
   type: block
   texture: energium_block
+- PowerModItems.BATTERY_CHARGER:
+  readable_name: "Battery Charger"
+  type: block
+  texture: battery_charger
 - PowerModItems.ENERGIUM_CONTROLLER:
   readable_name: "Energium Controller"
   type: block
@@ -66,6 +98,14 @@
   readable_name: "Raw Depleted Energium"
   type: item
   texture: raw_depleted_energium
+- PowerModItems.RAW_ENERGIUM:
+  readable_name: "Raw Energium"
+  type: item
+  texture: raw_energium
+- PowerModItems.ENERGIUM_DUST:
+  readable_name: "Energium Dust"
+  type: item
+  texture: energium_dust
 - PowerModItems.DEPLETED_ENERGIUM_INGOT:
   readable_name: "Depleted Energium Ingot"
   type: item

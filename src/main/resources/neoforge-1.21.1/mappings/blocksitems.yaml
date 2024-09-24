@@ -1,6 +1,9 @@
 PowerModItems.AMPLIFIER_ORE:
   - PowerModBlocks.AMPLIFIER_ORE.get()
   - "power:amplifier_ore"
+PowerModItems.DEEPSLATE_AMPLIFIER_ORE:
+  - PowerModBlocks.DEEPSLATE_AMPLIFIER_ORE.get()
+  - "power:deepslate_amplifier_ore"
 PowerModItems.RAW_AMPLIFIER_BLOCK:
   - PowerModBlocks.RAW_AMPLIFIER_BLOCK.get()
   - "power:raw_amplifier_block"
@@ -19,12 +22,18 @@ PowerModItems.AMPLIFIER_RING:
 PowerModItems.COPYRIUM_ORE:
   - PowerModBlocks.COPYRIUM_ORE.get()
   - "power:copyrium_ore"
+PowerModItems.DEEPSLATE_COPYRIUM_ORE:
+  - PowerModBlocks.DEEPSLATE_COPYRIUM_ORE.get()
+  - "power:deepslate_copyrium_ore"
 PowerModItems.RAW_COPYRIUM_BLOCK:
   - PowerModBlocks.RAW_COPYRIUM_BLOCK.get()
   - "power:raw_copyrium_block"
 PowerModItems.COPYRIUM_BLOCK:
   - PowerModBlocks.COPYRIUM_BLOCK.get()
   - "power:copyrium_block"
+PowerModItems.ELEMENTAL_POWER_GENERATOR:
+  - PowerModBlocks.ELEMENTAL_POWER_GENERATOR.get()
+  - "power:elemental_power_generator"
 PowerModItems.RAW_COPYRIUM:
   - PowerModItems.RAW_COPYRIUM.get()
   - "power:raw_copyrium"
@@ -34,21 +43,42 @@ PowerModItems.COPYRIUM_INGOT:
 PowerModItems.DEPLETED_ENERGIUM_ORE:
   - PowerModBlocks.DEPLETED_ENERGIUM_ORE.get()
   - "power:depleted_energium_ore"
+PowerModItems.DEEPSLATE_DEPLETED_ENERGIUM_ORE:
+  - PowerModBlocks.DEEPSLATE_DEPLETED_ENERGIUM_ORE.get()
+  - "power:deepslate_depleted_energium_ore"
+PowerModItems.ENERGIUM_ORE:
+  - PowerModBlocks.ENERGIUM_ORE.get()
+  - "power:energium_ore"
+PowerModItems.DEEPSLATE_ENERGIUM_ORE:
+  - PowerModBlocks.DEEPSLATE_ENERGIUM_ORE.get()
+  - "power:deepslate_energium_ore"
 PowerModItems.RAW_DEPLETED_ENERGIUM_BLOCK:
   - PowerModBlocks.RAW_DEPLETED_ENERGIUM_BLOCK.get()
-  - "power:depleted_energium_block"
+  - "power:raw_depleted_energium_block"
+PowerModItems.RAW_ENERGIUM_BLOCK:
+  - PowerModBlocks.RAW_ENERGIUM_BLOCK.get()
+  - "power:raw_nergium_block"
 PowerModItems.DEPLETED_ENERGIUM_BLOCK:
   - PowerModBlocks.DEPLETED_ENERGIUM_BLOCK.get()
   - "power:depleted_energium_block"
 PowerModItems.ENERGIUM_BLOCK:
   - PowerModBlocks.ENERGIUM_BLOCK.get()
   - "power:energium_block"
+PowerModItems.BATTERY_CHARGER:
+  - PowerModBlocks.BATTERY_CHARGER.get()
+  - "power:battery_charger"
 PowerModItems.ENERGIUM_CONTROLLER:
   - PowerModBlocks.ENERGIUM_CONTROLLER.get()
   - "power:energium_controller"
 PowerModItems.RAW_DEPLETED_ENERGIUM:
   - PowerModItems.RAW_DEPLETED_ENERGIUM.get()
   - "power:raw_depleted_energium"
+PowerModItems.RAW_ENERGIUM:
+  - PowerModItems.RAW_ENERGIUM.get()
+  - "power:raw_energium"
+PowerModItems.ENERGIUM_DUST:
+  - PowerModItems.ENERGIUM_DUST.get()
+  - "power:energium_dust"
 PowerModItems.DEPLETED_ENERGIUM_INGOT:
   - PowerModItems.DEPLETED_ENERGIUM_INGOT.get()
   - "power:depleted_energium_ingot"

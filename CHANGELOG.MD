@@ -3,3 +3,4 @@
 - Added support for 3-nd snapshot MCreator 2024.3 and full release
 - Removed support for Forge 1.20.1 and NeoForge 1.20.4 (Since support for the mod for this versions has been discontinued)
 - Removed support for MCreator 2024.2
+- Updating mappings due to the addition of new ore-related content
