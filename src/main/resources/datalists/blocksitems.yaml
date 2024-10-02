@@ -330,3 +330,7 @@
   readable_name: "Smoke Stone"
   type: item
   texture: smoke_stone
+- PowerModItems.SPIRIT_STONE:
+  readable_name: "Spirit Stone"
+  type: item
+  texture: spirit_stone
