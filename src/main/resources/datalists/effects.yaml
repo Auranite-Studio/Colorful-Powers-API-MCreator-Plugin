@@ -88,3 +88,5 @@
   texture: smoke_master
 - SPIRIT_MASTER:
   texture: spirit_master
+- FORM_MASTER:
+  texture: form_master

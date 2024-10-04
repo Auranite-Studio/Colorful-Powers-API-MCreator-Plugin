@@ -334,3 +334,7 @@
   readable_name: "Spirit Stone"
   type: item
   texture: spirit_stone
+- PowerModItems.FORM_STONE:
+  readable_name: "Form Stone"
+  type: item
+  texture: form_stone
