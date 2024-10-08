@@ -1,0 +1,17 @@
+{
+  "args0": [],
+  "inputsInline": true,
+  "output": "String",
+  "colour": "%{BKY_TEXTS_HUE}",
+  "mcreator": {
+    "group": "inventory",
+    "toolbox_id": "powers&mergers",
+    "toolbox_init": [],
+    "dependencies": [
+      {
+        "name": "itemstack",
+        "type": "itemstack"
+      }
+    ]
+  }
+}

@@ -4,21 +4,48 @@
       "type": "input_value",
       "name": "entity",
       "check": "Entity"
+    },
+    {
+      "type": "input_value",
+      "name": "x",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "y",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "z",
+      "check": "Number"
     }
   ],
   "inputsInline": true,
   "previousStatement": null,
   "nextStatement": null,
-  "colour": "%{BKY_LOGIC_HUE}",
+  "colour": 35,
   "mcreator": {
     "group": "inventory",
     "toolbox_id": "powers&mergers",
     "toolbox_init": [
+      "<value name=\"x\"><block type=\"coord_x\"></block></value>",
+      "<value name=\"y\"><block type=\"coord_y\"></block></value>",
+      "<value name=\"z\"><block type=\"coord_z\"></block></value>",
       "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>",
       "<value name=\"variableValue\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value>"
     ],
     "inputs": [
+      "x",
+      "y",
+      "z",
       "entity"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
     ]
   }
 }

@@ -1,5 +1,1 @@
-{
-PowerModVariables.PlayerVariables _vars = ${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES);
-_vars.send_client_package = true;
-_vars.syncPlayerVariables(${input$entity});
-}
+SendClientPackageActivationStoneVFXProcedure.execute(world, ${input$x}, ${input$y}, ${input$z}, ${input$entity});
