@@ -90,3 +90,9 @@
   texture: spirit_master
 - FORM_MASTER:
   texture: form_master
+- MIND_MASTER:
+  texture: mind_master
+- GOLDEN_DUST_MASTER:
+  texture: golden_dust_master
+- DARKNESS_MASTER:
+  texture: darkness_master

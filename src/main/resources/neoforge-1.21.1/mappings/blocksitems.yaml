@@ -253,3 +253,12 @@ PowerModItems.SPIRIT_STONE:
 PowerModItems.FORM_STONE:
   - PowerModItems.FORM_STONE.get()
   - "power:form_stone"
+PowerModItems.MIND_STONE:
+  - PowerModItems.MIND_STONE.get()
+  - "power:mind_stone"
+PowerModItems.GOLDEN_DUST_STONE:
+  - PowerModItems.GOLDEN_DUST_STONE.get()
+  - "power:golden_dust_stone"
+PowerModItems.DARKNESS_STONE:
+  - PowerModItems.DARKNESS_STONE.get()
+  - "power:darkness_stone"

@@ -338,3 +338,15 @@
   readable_name: "Form Stone"
   type: item
   texture: form_stone
+- PowerModItems.MIND_STONE:
+  readable_name: "Mind Stone"
+  type: item
+  texture: form_stone
+- PowerModItems.GOLDEN_DUST_STONE:
+  readable_name: "Golden Dust Stone"
+  type: item
+  texture: golden_dust_stone
+- PowerModItems.DARKNESS_STONE:
+  readable_name: "Darkness Stone"
+  type: item
+  texture: darkness_stone
