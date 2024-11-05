@@ -158,6 +158,38 @@
   readable_name: "Empty Battery"
   type: item
   texture: empty_battery
+- PowerModItems.CURSED_STONE:
+  readable_name: "Cursed Stone"
+  type: block
+  texture: cursed_stone
+- PowerModItems.CURSED_STONE_BRICKS:
+  readable_name: "Cursed Stone Bricks"
+  type: block
+  texture: cursed_stone_bricks
+- PowerModItems.CURSED_STONE_CRACKED_BRICKS:
+  readable_name: "Cursed Stone Cracked Bricks"
+  type: block
+  texture: cursed_stone_cracked_bricks
+- PowerModItems.POLISHED_CURSED_STONE:
+  readable_name: "Polished Cursed Stone"
+  type: block
+  texture: polished_cursed_stone
+- PowerModItems.CHISELED_CURSED_STONE:
+  readable_name: "Chiseled Cursed Stone"
+  type: block
+  texture: chiseled_cursed_stone
+- PowerModItems.CURSED_LAMP:
+  readable_name: "Cursed Lamp"
+  type: block
+  texture: cursed_lamp
+- PowerModItems.CURSED_LADDER:
+  readable_name: "Cursed Ladder"
+  type: block
+  texture: cursed_ladder
+- PowerModItems.CURSED_LANTERN:
+  readable_name: "Cursed Lantern"
+  type: block
+  texture: cursed_lantern
 - PowerModItems.FIRE_STONE:
   readable_name: "Fire Stone"
   type: item

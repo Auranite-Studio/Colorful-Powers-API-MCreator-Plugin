@@ -118,6 +118,30 @@ PowerModItems.ENERGIUM_CORE:
 PowerModItems.EMPTY_BATTERY:
   - PowerModItems.EMPTY_BATTERY.get()
   - "power:empty_battery"
+PowerModItems.CURSED_STONE:
+  - PowerModItems.CURSED_STONE.get()
+  - "power:cursed_stone"
+PowerModItems.CURSED_STONE_BRICKS:
+  - PowerModItems.CURSED_STONE_BRICKS.get()
+  - "power:cursed_stone_bricks"
+PowerModItems.CURSED_STONE_CRACKED_BRICKS:
+  - PowerModItems.CURSED_STONE_CRACKED_BRICKS.get()
+  - "power:cursed_stone_cracked_bricks"
+PowerModItems.POLISHED_CURSED_STONE:
+  - PowerModItems.POLISHED_CURSED_STONE.get()
+  - "power:polished_cursed_stone"
+PowerModItems.CHISELED_CURSED_STONE:
+  - PowerModItems.CHISELED_CURSED_STONE.get()
+  - "power:chiseled_cursed_stone"
+PowerModItems.CURSED_LAMP:
+  - PowerModItems.CURSED_LAMP.get()
+  - "power:cursed_lamp"
+PowerModItems.CURSED_LADDER:
+  - PowerModItems.CURSED_LADDER.get()
+  - "power:cursed_ladder"
+PowerModItems.CURSED_LANTERN:
+  - PowerModItems.CURSED_LANTERN.get()
+  - "power:cursed_lantern"
 PowerModItems.FIRE_STONE:
   - PowerModItems.FIRE_STONE.get()
   - "power:fire_stone"
