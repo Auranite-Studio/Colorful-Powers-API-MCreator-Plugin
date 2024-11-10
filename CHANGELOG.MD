@@ -1,4 +1,3 @@
-18.3:
-- Added cursed blocks to mappings
-- Added support for future version MCreator 2024.4
-- [Bugfix] Fixed some textures for some effects
+18.4:
+- Added support for Keepers of the Stones II 1.0.1
+- [Bugfix] 
