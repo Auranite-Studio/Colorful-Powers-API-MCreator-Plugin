@@ -1,3 +1,3 @@
-18.4:
-- Added support for Keepers of the Stones II 1.0.1
+18.5:
+- Added new procedure - Get active element name from any slots
 - [Bugfix] 
