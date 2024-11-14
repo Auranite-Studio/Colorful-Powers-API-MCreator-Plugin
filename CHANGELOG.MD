@@ -1,3 +1,4 @@
-18.5:
-- Added new procedure - Get active element name from any slots
-- [Bugfix] 
+18.6:
+- Added new procedures - Get transfered power and Set transfered power
+- Added dark elemental powers effects in mappings
+- Added mod gamerules in mappings

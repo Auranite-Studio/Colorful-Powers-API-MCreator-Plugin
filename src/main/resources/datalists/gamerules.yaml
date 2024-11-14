@@ -1,0 +1,6 @@
+- LIMITED_NUMBER_OF_STONES:
+  type: logic
+- LIMIT_OF_STONES_FOR_ONE_PLAYER:
+  type: logic
+- CHOICE_STONE_WHEN_ENTER_THE_WORLD:
+  type: logic

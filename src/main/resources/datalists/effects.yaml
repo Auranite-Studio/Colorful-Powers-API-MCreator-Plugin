@@ -96,3 +96,11 @@
   texture: golden_dust_master
 - DARKNESS_MASTER:
   texture: darkness_master
+- THIRST_DARK_MASTER:
+  texture: thirst_dark_master
+- CHAOS_DARK_MASTER:
+  texture: chaos_dark_master
+- FILTH_DARK_MASTER:
+  texture: filth_dark_master
+- HORROR_DARK_MASTER:
+  texture: horror_dark_master
