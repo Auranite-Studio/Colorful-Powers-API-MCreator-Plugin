@@ -1,0 +1,219 @@
+PowerModItems.AMPLIFIER_ORE:
+  - PowerModBlocks.AMPLIFIER_ORE.get()
+  - "power:amplifier_ore"
+PowerModItems.RAW_AMPLIFIER_BLOCK:
+  - PowerModBlocks.RAW_AMPLIFIER_BLOCK.get()
+  - "power:raw_amplifier_block"
+PowerModItems.AMPLIFIER_BLOCK:
+  - PowerModBlocks.AMPLIFIER_BLOCK.get()
+  - "power:amplifier_block"
+PowerModItems.RAW_AMPLIFIER:
+  - PowerModItems.RAW_AMPLIFIER.get()
+  - "power:raw_amplifier"
+PowerModItems.AMPLIFIER_DROP:
+  - PowerModItems.AMPLIFIER_DROP.get()
+  - "power:amplifier_drop"
+PowerModItems.AMPLIFIER_RING:
+  - PowerModItems.AMPLIFIER_RING.get()
+  - "power:amplifier_ring"
+PowerModItems.COPYRIUM_ORE:
+  - PowerModBlocks.COPYRIUM_ORE.get()
+  - "power:copyrium_ore"
+PowerModItems.RAW_COPYRIUM_BLOCK:
+  - PowerModBlocks.RAW_COPYRIUM_BLOCK.get()
+  - "power:raw_copyrium_block"
+PowerModItems.COPYRIUM_BLOCK:
+  - PowerModBlocks.COPYRIUM_BLOCK.get()
+  - "power:copyrium_block"
+PowerModItems.RAW_COPYRIUM:
+  - PowerModItems.RAW_COPYRIUM.get()
+  - "power:raw_copyrium"
+PowerModItems.COPYRIUM_INGOT:
+  - PowerModItems.COPYRIUM_INGOT.get()
+  - "power:copyrium_ingot"
+PowerModItems.DEPLETED_ENERGIUM_ORE:
+  - PowerModBlocks.DEPLETED_ENERGIUM_ORE.get()
+  - "power:depleted_energium_ore"
+PowerModItems.RAW_DEPLETED_ENERGIUM_BLOCK:
+  - PowerModBlocks.RAW_DEPLETED_ENERGIUM_BLOCK.get()
+  - "power:depleted_energium_block"
+PowerModItems.DEPLETED_ENERGIUM_BLOCK:
+  - PowerModBlocks.DEPLETED_ENERGIUM_BLOCK.get()
+  - "power:depleted_energium_block"
+PowerModItems.ENERGIUM_BLOCK:
+  - PowerModBlocks.ENERGIUM_BLOCK.get()
+  - "power:energium_block"
+PowerModItems.ENERGIUM_CONTROLLER:
+  - PowerModBlocks.ENERGIUM_CONTROLLER.get()
+  - "power:energium_controller"
+PowerModItems.RAW_DEPLETED_ENERGIUM:
+  - PowerModItems.RAW_DEPLETED_ENERGIUM.get()
+  - "power:raw_depleted_energium"
+PowerModItems.DEPLETED_ENERGIUM_INGOT:
+  - PowerModItems.DEPLETED_ENERGIUM_INGOT.get()
+  - "power:depleted_energium_ingot"
+PowerModItems.ENERGIUM_INGOT:
+  - PowerModItems.ENERGIUM_INGOT.get()
+  - "power:energium_ingot"
+PowerModItems.ENERGIUM_SWORD:
+  - PowerModItems.ENERGIUM_SWORD.get()
+  - "power:energium_sword"
+PowerModItems.ENERGIUM_AXE:
+  - PowerModItems.ENERGIUM_AXE.get()
+  - "power:energium_axe"
+PowerModItems.ENERGIUM_PICKAXE:
+  - PowerModItems.ENERGIUM_PICKAXE.get()
+  - "power:energium_pickaxe"
+PowerModItems.ENERGIUM_SHOVEL:
+  - PowerModItems.ENERGIUM_SHOVEL.get()
+  - "power:energium_shovel"
+PowerModItems.ENERGIUM_HOE:
+  - PowerModItems.ENERGIUM_HOE.get()
+  - "power:energium_hoe"
+PowerModItems.ENERGIUM_HELMET:
+  - PowerModItems.ENERGIUM_HELMET.get()
+  - "power:energium_helmet"
+PowerModItems.ENERGIUM_CHESTPLATE:
+  - PowerModItems.ENERGIUM_CHESTPLATE.get()
+  - "power:energium_chestplate"
+PowerModItems.ENERGIUM_LEGGINGS:
+  - PowerModItems.ENERGIUM_LEGGINGS.get()
+  - "power:energium_leggings"
+PowerModItems.ENERGIUM_BOOTS:
+  - PowerModItems.ENERGIUM_BOOTS.get()
+  - "power:energium_boots"
+PowerModItems.ENERGIUM_CORE:
+  - PowerModItems.ENERGIUM_CORE.get()
+  - "power:energium_core"
+PowerModItems.EMPTY_BATTERY:
+  - PowerModItems.EMPTY_BATTERY.get()
+  - "power:empty_battery"
+PowerModItems.FIRE_STONE:
+  - PowerModItems.FIRE_STONE.get()
+  - "power:fire_stone"
+PowerModItems.AIR_STONE:
+  - PowerModItems.AIR_STONE.get()
+  - "power:air_stone"
+PowerModItems.EARTH_STONE:
+  - PowerModItems.EARTH_STONE.get()
+  - "power:earth_stone"
+PowerModItems.WATER_STONE:
+  - PowerModItems.WATER_STONE.get()
+  - "power:water_stone"
+PowerModItems.ETHER_STONE:
+  - PowerModItems.ETHER_STONE.get()
+  - "power:ether_stone"
+PowerModItems.ICE_STONE:
+  - PowerModItems.ICE_STONE.get()
+  - "power:ice_stone"
+PowerModItems.LIGHTNING_STONE:
+  - PowerModItems.LIGHTNING_STONE.get()
+  - "power:lightning_stone"
+PowerModItems.SOUND_STONE:
+  - PowerModItems.SOUND_STONE.get()
+  - "power:sound_stone"
+PowerModItems.CRYSTAL_STONE:
+  - PowerModItems.CRYSTAL_STONE.get()
+  - "power:crystal_stone"
+PowerModItems.LAVA_STONE:
+  - PowerModItems.LAVA_STONE.get()
+  - "power:lava_stone"
+PowerModItems.RAIN_STONE:
+  - PowerModItems.RAIN_STONE.get()
+  - "power:rain_stone"
+PowerModItems.TORNADO_STONE:
+  - PowerModItems.TORNADO_STONE.get()
+  - "power:tornado_stone"
+PowerModItems.OCEAN_STONE:
+  - PowerModItems.OCEAN_STONE.get()
+  - "power:ocean_stone"
+PowerModItems.PLANTS_STONE:
+  - PowerModItems.PLANTS_STONE.get()
+  - "power:plants_stone"
+PowerModItems.ANIMALS_STONE:
+  - PowerModItems.ANIMALS_STONE.get()
+  - "power:animals_stone"
+PowerModItems.METAL_STONE:
+  - PowerModItems.METAL_STONE.get()
+  - "power:metal_stone"
+PowerModItems.LIGHT_STONE:
+  - PowerModItems.LIGHT_STONE.get()
+  - "power:light_stone"
+PowerModItems.SHADOW_STONE:
+  - PowerModItems.SHADOW_STONE.get()
+  - "power:shadow_stone"
+PowerModItems.VACUUM_STONE:
+  - PowerModItems.VACUUM_STONE.get()
+  - "power:vacuum_stone"
+PowerModItems.ENERGY_STONE:
+  - PowerModItems.ENERGY_STONE.get()
+  - "power:energy_stone"
+PowerModItems.SUN_STONE:
+  - PowerModItems.SUN_STONE.get()
+  - "power:sun_stone"
+PowerModItems.MOON_STONE:
+  - PowerModItems.MOON_STONE.get()
+  - "power:moon_stone"
+PowerModItems.SPACE_STONE:
+  - PowerModItems.SPACE_STONE.get()
+  - "power:space_stone"
+PowerModItems.TIME_STONE:
+  - PowerModItems.TIME_STONE.get()
+  - "power:time_stone"
+PowerModItems.CREATION_STONE:
+  - PowerModItems.CREATION_STONE.get()
+  - "power:creation_stone"
+PowerModItems.DESTRUCTION_STONE:
+  - PowerModItems.DESTRUCTION_STONE.get()
+  - "power:destruction_stone"
+PowerModItems.BLOOD_STONE:
+  - PowerModItems.BLOOD_STONE.get()
+  - "power:blood_stone"
+PowerModItems.TECHNOLOGY_STONE:
+  - PowerModItems.TECHNOLOGY_STONE.get()
+  - "power:technology_stone"
+PowerModItems.TELEPORTATION_STONE:
+  - PowerModItems.TELEPORTATION_STONE.get()
+  - "power:teleportation_stone"
+PowerModItems.EXPLOSION_STONE:
+  - PowerModItems.EXPLOSION_STONE.get()
+  - "power:explosion_stone"
+PowerModItems.AMBER_STONE:
+  - PowerModItems.AMBER_STONE.get()
+  - "power:amber_stone"
+PowerModItems.MIST_STONE:
+  - PowerModItems.MIST_STONE.get()
+  - "power:mist_stone"
+PowerModItems.SAND_STONE:
+  - PowerModItems.SAND_STONE.get()
+  - "power:sand_stone"
+PowerModItems.SPEED_STONE:
+  - PowerModItems.SPEED_STONE.get()
+  - "power:speed_stone"
+PowerModItems.POISON_STONE:
+  - PowerModItems.POISON_STONE.get()
+  - "power:poison_stone"
+PowerModItems.MAGNET_STONE:
+  - PowerModItems.MAGNET_STONE.get()
+  - "power:magnet_stone"
+PowerModItems.MUSHROOMS_STONE:
+  - PowerModItems.MUSHROOMS_STONE.get()
+  - "power:mushrooms_stone"
+PowerModItems.MERCURY_STONE:
+  - PowerModItems.MERCURY_STONE.get()
+  - "power:mercury_stone"
+PowerModItems.MUSIC_STONE:
+  - PowerModItems.MUSIC_STONE.get()
+  - "power:music_stone"
+PowerModItems.PLAGUE_STONE:
+  - PowerModItems.PLAGUE_STONE.get()
+  - "power:plague_stone"
+PowerModItems.BLUE_FLAME_STONE:
+  - PowerModItems.BLUE_FLAME_STONE.get()
+  - "power:blue_flame_stone"
+PowerModItems.GRAVITY_STONE:
+  - PowerModItems.GRAVITY_STONE.get()
+  - "power:gravity_stone"
+PowerModItems.SMOKE_STONE:
+  - PowerModItems.SMOKE_STONE.get()
+  - "power:smoke_stone"

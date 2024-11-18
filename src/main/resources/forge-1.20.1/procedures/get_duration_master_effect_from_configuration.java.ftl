@@ -1,0 +1,1 @@
+(PowerModVariables.MapVariables.get(world).master_effect_duration * 20)

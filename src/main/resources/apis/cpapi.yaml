@@ -11,4 +11,17 @@ neoforge-1.21.1:
      }
   update_files:
     - ~
+forge-1.20.1:
+  gradle: |
+    repositories {
+     maven {
+         url = 'https://api.modrinth.com/maven'
+     }
+    }
+    
+     dependencies {
+        implementation 'maven.modrinth:keepers-of-the-stones-2:bVjV8J8F'
+     }
+  update_files:
+    - ~
 name: "Colorful Powers API"
