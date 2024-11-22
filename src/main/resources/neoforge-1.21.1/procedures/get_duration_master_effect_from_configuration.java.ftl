@@ -1,1 +1,1 @@
-(PowerModVariables.master_effect_duration * 20)
+(entity.getData(PowerModVariables.PLAYER_VARIABLES).master_effect_duration * 20)
