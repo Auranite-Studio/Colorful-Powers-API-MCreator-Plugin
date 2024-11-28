@@ -17,7 +17,7 @@
   "colour": 175,
   "mcreator": {
     "group": "inventory",
-    "toolbox_id": "powers&mergers",
+    "toolbox_id": "stones",
     "toolbox_init": [
       "<value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\"></field></block></value>",
       "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>"

@@ -4,6 +4,20 @@
       "type": "input_value",
       "name": "entity",
       "check": "Entity"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "status",
+      "options": [
+        [
+          "START",
+          "master_effect_start"
+        ],
+        [
+          "END",
+          "master_effect_end"
+        ]
+      ]
     }
   ],
   "inputsInline": true,
@@ -17,6 +31,9 @@
     ],
     "inputs": [
       "entity"
+    ],
+    "fields": [
+      "status"
     ]
   }
 }

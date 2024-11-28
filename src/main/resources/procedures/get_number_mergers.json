@@ -11,7 +11,7 @@
   "colour": "%{BKY_MATH_HUE}",
   "mcreator": {
     "group": "inventory",
-    "toolbox_id": "powers&mergers",
+    "toolbox_id": "mergers",
     "toolbox_init": [
       "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>"
     ],
