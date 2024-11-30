@@ -7,7 +7,7 @@ neoforge-1.21.1:
     }
     
      dependencies {
-        implementation 'maven.modrinth:keepers-of-the-stones-2:cwvrrqit'
+        implementation 'maven.modrinth:keepers-of-the-stones-2:cUm8hKTQ'
      }
   update_files:
     - ~
