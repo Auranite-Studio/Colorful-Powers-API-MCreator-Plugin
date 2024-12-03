@@ -1,3 +1,3 @@
-20.1:
-- Added support for Keepers of the Stones II 1.0.3
-- [Bugfix] Fixed effects mappings for 1.20.1 Forge
+20.2:
+- Added support for first snapshot MCreator 2024.4
+- Added new procedure - Calculate the remaining recharge time of the stone
