@@ -1,6 +1,6 @@
 neoforge-1.21.1:
   gradle: |
      dependencies {
-        implementation files('C:/Users/chizh/Desktop/power-1.0.3.1-neoforge-1.21.1.jar')
+        implementation files('C:/Users/chizh/Desktop/power-1.1.0.1-neoforge-1.21.1.jar')
      }
 name: "Colorful Powers API - Local Test (Don't use, Only for testing)"
