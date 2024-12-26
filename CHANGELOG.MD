@@ -1,3 +1,2 @@
-20.2:
-- Added support for first snapshot MCreator 2024.4
-- Added new procedure block - Calculate the remaining recharge time of the stone
+20.3:
+- Added support for Keepers of the Stones II 1.0.4
