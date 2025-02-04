@@ -1,0 +1,1 @@
+${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).second_wheel_open_var)

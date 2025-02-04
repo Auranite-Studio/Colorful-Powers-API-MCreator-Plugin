@@ -1,0 +1,1 @@
+SendClientPackageActivationStoneVFXProcedure.execute(world, ${input$x}, ${input$y}, ${input$z}, ${input$entity});
