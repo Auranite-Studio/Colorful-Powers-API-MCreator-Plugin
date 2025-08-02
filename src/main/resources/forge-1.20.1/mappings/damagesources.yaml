@@ -1,3 +1,0 @@
-ELEMENTAL_POWERS:
-  - ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation ("power:elemental_powers"))
-  - power:elemental_powers

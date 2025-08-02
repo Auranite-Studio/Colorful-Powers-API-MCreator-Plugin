@@ -1,1 +1,0 @@
-${input$entity}.getData(PowerModVariables.PLAYER_VARIABLES).unlock_keepers_box

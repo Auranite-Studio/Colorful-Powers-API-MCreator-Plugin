@@ -104,3 +104,7 @@
   texture: filth_dark_master
 - HORROR_DARK_MASTER:
   texture: horror_dark_master
+- HEAT_MASTER:
+  texture: heat_master
+- SHOCKWAVE_MASTER:
+  texture: shockwave_master

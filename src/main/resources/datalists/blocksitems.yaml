@@ -382,3 +382,11 @@
   readable_name: "Darkness Stone"
   type: item
   texture: darkness_stone
+- PowerModItems.HEAT_STONE:
+  readable_name: "Heat Stone"
+  type: item
+  texture: heat_stone
+- PowerModItems.SHOCKWAVE_STONE:
+  readable_name: "Shockwave Stone"
+  type: item
+  texture: shockwave_stone

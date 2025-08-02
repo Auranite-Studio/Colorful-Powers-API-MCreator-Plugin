@@ -286,3 +286,9 @@ PowerModItems.GOLDEN_DUST_STONE:
 PowerModItems.DARKNESS_STONE:
   - PowerModItems.DARKNESS_STONE.get()
   - "power:darkness_stone"
+PowerModItems.HEAT_STONE:
+  - PowerModItems.HEAT_STONE.get()
+  - "power:heat_stone"
+PowerModItems.SHOCKWAVE_STONE:
+  - PowerModItems.SHOCKWAVE_STONE.get()
+  - "power:shockwave_stone"

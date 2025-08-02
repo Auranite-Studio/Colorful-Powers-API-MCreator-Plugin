@@ -1,1 +1,0 @@
-(PowerModVariables.master_effect_duration * 20)
