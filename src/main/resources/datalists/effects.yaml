@@ -92,6 +92,12 @@
   texture: form_master
 - MIND_MASTER:
   texture: mind_master
+- HEAT_MASTER:
+  texture: heat_master
+- SHOCKWAVE_MASTER:
+  texture: shockwave_master
+- COLORS_MASTER:
+  texture: colors_master
 - GOLDEN_DUST_MASTER:
   texture: golden_dust_master
 - DARKNESS_MASTER:
@@ -104,9 +110,3 @@
   texture: filth_dark_master
 - HORROR_DARK_MASTER:
   texture: horror_dark_master
-- HEAT_MASTER:
-  texture: heat_master
-- SHOCKWAVE_MASTER:
-  texture: shockwave_master
-- COLORS_MASTER:
-  texture: colors_master
