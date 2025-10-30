@@ -1,0 +1,19 @@
+---
+neoforge-1.21.1:
+    gradle: |
+        repositories {
+        maven {
+          name = "Illusive Soulworks maven"
+          url = "https://maven.theillusivec4.top/"
+          }
+        }
+        
+        dependencies {
+          runtimeOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1"
+          compileOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1:api"
+        }
+
+    update_files:
+        - ~
+
+name: "Curios API"
