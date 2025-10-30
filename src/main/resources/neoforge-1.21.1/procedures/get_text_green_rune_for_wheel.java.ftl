@@ -1,0 +1,1 @@
+RuneTooltipRenderProcedure.execute(${input$entity})
