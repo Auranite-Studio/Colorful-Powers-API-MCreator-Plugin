@@ -373,15 +373,7 @@
 - PowerModItems.MIND_STONE:
   readable_name: "Mind Stone"
   type: item
-  texture: form_stone
-- PowerModItems.GOLDEN_DUST_STONE:
-  readable_name: "Golden Dust Stone"
-  type: item
-  texture: golden_dust_stone
-- PowerModItems.DARKNESS_STONE:
-  readable_name: "Darkness Stone"
-  type: item
-  texture: darkness_stone
+  texture: mind_stone
 - PowerModItems.HEAT_STONE:
   readable_name: "Heat Stone"
   type: item
@@ -390,3 +382,15 @@
   readable_name: "Shockwave Stone"
   type: item
   texture: shockwave_stone
+- PowerModItems.COLORS_STONE:
+  readable_name: "Colors Stone"
+  type: item
+  texture: colors_stone
+- PowerModItems.GOLDEN_DUST_STONE:
+  readable_name: "Golden Dust Stone"
+  type: item
+  texture: golden_dust_stone
+- PowerModItems.DARKNESS_STONE:
+  readable_name: "Darkness Stone"
+  type: item
+  texture: darkness_stone

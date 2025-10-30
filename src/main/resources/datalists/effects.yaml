@@ -108,3 +108,5 @@
   texture: heat_master
 - SHOCKWAVE_MASTER:
   texture: shockwave_master
+- COLORS_MASTER:
+  texture: colors_master

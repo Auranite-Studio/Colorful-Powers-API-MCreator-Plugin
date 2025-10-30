@@ -1,13 +1,13 @@
 {
   "id": "cpapi",
   "supportedversions": [
-    2025002
+    2025003
   ],
   "weight": 93,
   "javaplugin": "com.esmods.cpapi.Launcher",
   "info": {
     "name": "Colorful Powers API",
-    "version": "26",
+    "version": "27",
     "description": "This plugin is a tool for creating mods with magical artifacts and powers compatible with the Keepers of the Stones II mod",
     "author": "Auranite Studio"
   }
